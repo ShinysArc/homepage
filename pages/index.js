@@ -5,7 +5,7 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
-import { IoLogoGithub, IoLogoLinkedin, IoLogoInstagram } from 'react-icons/io5'
+import { IoLogoGithub, IoLogoLinkedin, IoLogoInstagram, IoMail } from 'react-icons/io5'
 
 const Page = () => {
     return (
@@ -55,9 +55,13 @@ const Page = () => {
                         When not online, I love hanging out with my camera.
                         I am currently looking for an internship in Software Development.
                         Interested by my profile? {' '}
-                        <NextLink href="/resume">
-                            <Link>Click here to see my resume!</Link>
-                        </NextLink>
+                        <a href="/files/resume.pdf" target="_blank">
+                            <Link>Click here to see my resume</Link>
+                        </a>
+                        {' '}or{' '}
+                        <a href="mailto:stegel@live.fr">
+                            <Link>contact me!</Link>
+                        </a>
                     </Paragraph>
                     <Box align="center" my={4}>
                         <NextLink href="/projects">
@@ -66,6 +70,26 @@ const Page = () => {
                             </Button>
                         </NextLink>
                     </Box>
+                </Section>
+
+                <Section delay={0.3}>
+                    <Heading as="h3" variant="section-title">
+                        Skills
+                    </Heading>
+                    <List>
+                        <ListItem>
+                            <BioYear>Programming languages</BioYear>
+                            C/C++, Java, C#, Python, Rust, OCaml
+                        </ListItem>
+                        <ListItem>
+                            <BioYear>Languages</BioYear>
+                            French, English (TOEIC 915)
+                        </ListItem>
+                        <ListItem>
+                            <BioYear>Certificates</BioYear>
+                            Driving license
+                        </ListItem>
+                    </List>
                 </Section>
 
                 <Section delay={0.2}>
@@ -118,6 +142,13 @@ const Page = () => {
                             <Link href="https://www.instagram.com/shinysarc" target="_blank">
                                 <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoInstagram} />}>
                                     @shinysarc
+                                </Button>
+                            </Link>
+                        </ListItem>
+                        <ListItem>
+                            <Link href="mailto:stegel@live.fr" target="_blank">
+                                <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoMail} />}>
+                                    stegel@live.fr
                                 </Button>
                             </Link>
                         </ListItem>

@@ -3,6 +3,7 @@ import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, Meta } from '../../components/project'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
+import { ProjectImage } from '../../components/project'
 
 const Project = () => {
     return (
@@ -26,6 +27,11 @@ const Project = () => {
                         <span>Java, Quarkus, Hibernate</span>
                     </ListItem>
                 </List>
+
+                <ProjectImage src="/images/projects/jws_01.png" alt="JWS" />
+                <ProjectImage src="/images/projects/jws_02.png" alt="JWS" />
+                <ProjectImage src="/images/projects/jws_03.png" alt="JWS" />
+                <ProjectImage src="/images/projects/jws_04.png" alt="JWS" />
             </Container>
         </Layout>
     )
