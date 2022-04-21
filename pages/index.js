@@ -118,7 +118,7 @@ const Page = () => {
                         <ListItem>
                             <BioYear>Taekwondo</BioYear>
                             I have practiced Taekwondo for a few years and I have to say I fell in love with it.
-                            Although in the last 3 years I haven't had many occasions to go to training, I always enjoy a fun kicking session.
+                            Although in the last 3 years I haven&apos;t had many occasions to go to training, I always enjoy a fun kicking session.
                         </ListItem>
                         <br />
                         <ListItem>
@@ -131,7 +131,7 @@ const Page = () => {
                         <ListItem>
                             <BioYear>Music</BioYear>
                             I listen to pretty much everything. My range can go from K-Pop to good old Power Metal. A big shoutout to DragonForce and Dreamcatcher, these are probably my favorite groups ever.
-                            But yeah, as long as it's good, I can vibe to it.
+                            But yeah, as long as it&apos;s good, I can vibe to it.
                         </ListItem>
                     </List>
                 </Section>
