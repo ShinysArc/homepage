@@ -110,13 +110,30 @@ const Page = () => {
                     </BioSection>
                 </Section>
 
-                <Section delay={0.3}>
+                <Section>
                     <Heading as="h3" variant="section-title">
                         I ♥
                     </Heading>
-                    <Paragraph>
-                        Photography, Taekwondo, Music
-                    </Paragraph>
+                    <List>
+                        <ListItem>
+                            <BioYear>Taekwondo</BioYear>
+                            I have practiced Taekwondo for a few years and I have to say I fell in love with it.
+                            Although in the last 3 years I haven't had many occasions to go to training, I always enjoy a fun kicking session.
+                        </ListItem>
+                        <br />
+                        <ListItem>
+                            <BioYear>Photography</BioYear>
+                            I discovered photography when I first joined Epita. I was astonished by the sheer amount of possibilities
+                            it can lead to. So I instantly joined the photography club and bought a camera with my first salary.
+                            I often shoot cosplay photos for my girlfriend, and actively participate in club activities.
+                        </ListItem>
+                        <br />
+                        <ListItem>
+                            <BioYear>Music</BioYear>
+                            I listen to pretty much everything. My range can go from K-Pop to good old Power Metal. A big shoutout to DragonForce and Dreamcatcher, these are probably my favorite groups ever.
+                            But yeah, as long as it's good, I can vibe to it.
+                        </ListItem>
+                    </List>
                 </Section>
 
                 <Section delay={0.3}>

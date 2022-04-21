@@ -17,12 +17,13 @@ const LogoBox = styled.span`
   }
 
   &:hover img {
-      transform: rotate(20deg);
+      transform: rotate(10deg);
   }
 `
 
 const Logo = () => {
-    const footPrintImg = `/images/footprint${useColorModeValue('', '-dark')}.png`
+    //const footPrintImg = `/images/footprint${useColorModeValue('', '-dark')}.png`
+    const footPrintImg = `/favicon.png`
 
     return (
         <Link href="/">

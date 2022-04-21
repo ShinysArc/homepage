@@ -3,6 +3,7 @@ import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, Meta } from '../../components/project'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
+import { ProjectImage } from '../../components/project'
 
 const Project = () => {
     return (
@@ -11,14 +12,17 @@ const Project = () => {
                 <Title>
                     42sh {' '}<Badge>2021</Badge>
                 </Title>
+
+                <ProjectImage src="/images/projects/42sh.gif" alt="42sh" />
+                
                 <P>
                     A POSIX compliant, Bash-like shell written in C.
                 </P>
                 <List ml={4} my={4}>
                     <ListItem>
                         <Meta>Source code</Meta>
-                        <Link href='https://github.com/Adamaq01/beike'>
-                            GitHub<ExternalLinkIcon mx="2px" />
+                        <Link href='https://gitfront.io/r/ShinysArc/ce88c99c9da7cfd5f160da355d573ebe3d9ad74e/42sh/'>
+                            Link<ExternalLinkIcon mx="2px" />
                         </Link>
                     </ListItem>
                     <ListItem>

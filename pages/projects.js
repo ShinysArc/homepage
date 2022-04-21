@@ -4,6 +4,7 @@ import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 import thumb42sh from '../public/images/projects/42sh_preview.png'
 import thumbJWS from '../public/images/projects/jws_preview.png'
+import thumbTiger from '../public/images/projects/tiger_preview.png'
 import Layout from '../components/layouts/article'
 
 const Projects = () => {
@@ -23,6 +24,11 @@ const Projects = () => {
                     <Section>
                         <WorkGridItem id="jws" title="JWS" thumbnail={thumbJWS}>
                             Implemented a Rest API in Java using a layered architecture.
+                        </WorkGridItem>
+                    </Section>
+                    <Section>
+                        <WorkGridItem id="tiger" title="Tiger Compiler" thumbnail={thumbTiger}>
+                            A C++ compiler for the toy language Tiger.
                         </WorkGridItem>
                     </Section>
                 </SimpleGrid>
