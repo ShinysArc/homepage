@@ -5,6 +5,7 @@ import { WorkGridItem } from '../components/grid-item'
 import thumb42sh from '../public/images/projects/42sh_preview.png'
 import thumbJWS from '../public/images/projects/jws_preview.png'
 import thumbTiger from '../public/images/projects/tiger_preview.png'
+import thumbOCR from '../public/images/projects/ocr_preview.png'
 import Layout from '../components/layouts/article'
 
 const Projects = () => {
@@ -17,8 +18,8 @@ const Projects = () => {
 
                 <SimpleGrid columns={[1, 1, 2]} gap={6}>
                     <Section>
-                        <WorkGridItem id="42sh" title="42sh" thumbnail={thumb42sh}>
-                            A POSIX compliant, Bash-like shell written in C.
+                        <WorkGridItem id="tiger" title="Tiger Compiler" thumbnail={thumbTiger}>
+                            A C++ compiler for the toy language Tiger.
                         </WorkGridItem>
                     </Section>
                     <Section>
@@ -27,16 +28,21 @@ const Projects = () => {
                         </WorkGridItem>
                     </Section>
                     <Section>
-                        <WorkGridItem id="tiger" title="Tiger Compiler" thumbnail={thumbTiger}>
-                            A C++ compiler for the toy language Tiger.
+                        <WorkGridItem id="42sh" title="42sh" thumbnail={thumb42sh}>
+                            A POSIX compliant, Bash-like shell written in C.
+                        </WorkGridItem>
+                    </Section>
+                    <Section>
+                        <WorkGridItem id="ocr" title="OCR" thumbnail={thumbOCR}>
+                            An OCR written in C using GTK3 and SDL2.
                         </WorkGridItem>
                     </Section>
                 </SimpleGrid>
                 <Box my={6} align="center">
-                <NextLink href="/">
-                    <Button colorScheme="teal">Go to main page</Button>
-                </NextLink>
-            </Box>
+                    <NextLink href="/">
+                        <Button colorScheme="teal">Go to main page</Button>
+                    </NextLink>
+                </Box>
             </Container>
         </Layout>
     )

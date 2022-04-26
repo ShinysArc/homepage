@@ -18,13 +18,23 @@ const Project = () => {
                 <List ml={4} my={4}>
                     <ListItem>
                         <Meta>Source code</Meta>
-                        <Link href='https://gitfront.io/r/ShinysArc/6f50b0af49c8562086bebdafecade943ce5fb3f1/JWS/'>
+                        <Link href='https://gitfront.io/r/ShinysArc/6f50b0af49c8562086bebdafecade943ce5fb3f1/JWS/' target="_blank">
                             Link<ExternalLinkIcon mx="2px" />
                         </Link>
                     </ListItem>
                     <ListItem>
                         <Meta>Tags</Meta>
-                        <span>Java, Quarkus, Hibernate</span>
+                        <span>
+                            <Link href='https://en.wikipedia.org/wiki/Java_(programming_language)' target="_blank">
+                                Java
+                            </Link>, {' '}
+                            <Link href='https://en.wikipedia.org/wiki/Quarkus' target="_blank">
+                                Quarkus
+                            </Link>, {' '}
+                            <Link href='https://en.wikipedia.org/wiki/Hibernate_(framework)' target="_blank">
+                                Hibernate
+                            </Link>
+                        </span>
                     </ListItem>
                 </List>
 

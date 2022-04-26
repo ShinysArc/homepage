@@ -14,20 +14,31 @@ const Project = () => {
                 </Title>
 
                 <ProjectImage src="/images/projects/42sh.gif" alt="42sh" />
-                
+
                 <P>
-                    A POSIX compliant, Bash-like shell written in C.
+                    A POSIX compliant, Bash-like shell written in C. It also implements a few builtins such as
+                    echo, cd, export, source, and a few more.
                 </P>
                 <List ml={4} my={4}>
                     <ListItem>
                         <Meta>Source code</Meta>
-                        <Link href='https://gitfront.io/r/ShinysArc/ce88c99c9da7cfd5f160da355d573ebe3d9ad74e/42sh/'>
+                        <Link href='https://gitfront.io/r/ShinysArc/ce88c99c9da7cfd5f160da355d573ebe3d9ad74e/42sh/' target="_blank">
                             Link<ExternalLinkIcon mx="2px" />
                         </Link>
                     </ListItem>
                     <ListItem>
                         <Meta>Tags</Meta>
-                        <span>C99 Standard, Meson build system, Shell</span>
+                        <span>
+                            <Link href='https://en.wikipedia.org/wiki/C_(programming_language)' target="_blank">
+                                C99 Standard
+                            </Link>, {' '}
+                            <Link href='https://en.wikipedia.org/wiki/Meson_(software)' target="_blank">
+                                Meson build system
+                            </Link>, {' '}
+                            <Link href='https://en.wikipedia.org/wiki/Unix_shell' target="_blank">
+                                Shell
+                            </Link>
+                        </span>
                     </ListItem>
                 </List>
             </Container>

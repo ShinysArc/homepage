@@ -83,7 +83,7 @@ const Page = () => {
                         </ListItem>
                         <ListItem>
                             <BioYear>Languages</BioYear>
-                            French, English (TOEIC 915)
+                            French, English (TOEIC 965)
                         </ListItem>
                         <ListItem>
                             <BioYear>Certificates</BioYear>
@@ -116,22 +116,32 @@ const Page = () => {
                     </Heading>
                     <List>
                         <ListItem>
-                            <BioYear>Taekwondo</BioYear>
-                            I have practiced Taekwondo for a few years and I have to say I fell in love with it.
-                            Although in the last 3 years I haven&apos;t had many occasions to go to training, I always enjoy a fun kicking session.
+                            <Paragraph>
+                                <BioYear>Taekwondo</BioYear>
+                                I have practiced Taekwondo for a few years and I have to say I fell in love with it.
+                                Although in the last 3 years I haven&apos;t had many occasions to go to training, I always enjoy a fun kicking session.
+                            </Paragraph>
                         </ListItem>
                         <br />
                         <ListItem>
-                            <BioYear>Photography</BioYear>
-                            I discovered photography when I first joined Epita. I was astonished by the sheer amount of possibilities
-                            it can lead to. So I instantly joined the photography club and bought a camera with my first salary.
-                            I often shoot cosplay photos for my girlfriend, and actively participate in club activities.
+                            <Paragraph>
+                                <BioYear>
+                                    <Link href="https://www.instagram.com/shinysarc" target="_blank">
+                                        Photography
+                                    </Link>
+                                </BioYear>
+                                I discovered photography when I first joined Epita. I was astonished by the sheer amount of possibilities
+                                it can lead to. So I instantly joined the photography club and bought a camera with my first salary.
+                                I often shoot cosplay photos for my girlfriend, and actively participate in club activities.
+                            </Paragraph>
                         </ListItem>
                         <br />
                         <ListItem>
-                            <BioYear>Music</BioYear>
-                            I listen to pretty much everything. My range can go from K-Pop to good old Power Metal. A big shoutout to DragonForce and Dreamcatcher, these are probably my favorite groups ever.
-                            But yeah, as long as it&apos;s good, I can vibe to it.
+                            <Paragraph>
+                                <BioYear>Music</BioYear>
+                                I listen to pretty much everything. My range can go from K-Pop to good old Power Metal. A big shoutout to DragonForce and Dreamcatcher, these are probably my favorite groups ever.
+                                But yeah, as long as it&apos;s good, I can vibe to it.
+                            </Paragraph>
                         </ListItem>
                     </List>
                 </Section>
