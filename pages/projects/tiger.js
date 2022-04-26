@@ -3,7 +3,6 @@ import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, Meta } from '../../components/project'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
-import { ProjectImage } from '../../components/project'
 
 const Project = () => {
     return (
