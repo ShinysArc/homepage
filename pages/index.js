@@ -51,17 +51,18 @@ const Page = () => {
                     </Heading>
                     <Paragraph>
                         I am Stephane Gelibert, a computer engineering student at EPITA, based in Paris, France.
-                        I have a knack for all things related to IT.
+                        I have a knack for all things related to IT, programming, and development.
+                        <br />
                         When not online, I love hanging out with my camera.
                         I am currently looking for an internship in Software Development.
                         Interested by my profile? {' '}
-                        <a href="/files/resume.pdf" target="_blank">
-                            <Link>Click here to see my resume</Link>
-                        </a>
-                        {' '}or{' '}
-                        <a href="mailto:stegel@live.fr">
-                            <Link>contact me!</Link>
-                        </a>
+                        <Link href="/files/resume.pdf" target="_blank">
+                            Click here to see my resume
+                        </Link>
+                        {' '} or {' '}
+                        <Link href="mailto:contact@stephanegelibert.com">
+                            contact me!
+                        </Link>
                     </Paragraph>
                     <Box align="center" my={4}>
                         <NextLink href="/projects">
@@ -97,16 +98,16 @@ const Page = () => {
                         Bio
                     </Heading>
                     <BioSection>
-                        <BioYear>2000</BioYear>
-                        Born in Paris, France.
+                        <BioYear>2018 to present</BioYear>
+                        Student at Epita engineering school.
                     </BioSection>
                     <BioSection>
                         <BioYear>2018</BioYear>
                         Obtained the scientific baccalaureate, with honors.
                     </BioSection>
                     <BioSection>
-                        <BioYear>2018 to present</BioYear>
-                        Student at Epita engineering school.
+                        <BioYear>2000</BioYear>
+                        Born in Paris, France.
                     </BioSection>
                 </Section>
 
@@ -173,9 +174,9 @@ const Page = () => {
                             </Link>
                         </ListItem>
                         <ListItem>
-                            <Link href="mailto:stegel@live.fr" target="_blank">
+                            <Link href="mailto:contact@stephanegelibert.com" target="_blank">
                                 <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoMail} />}>
-                                    stegel@live.fr
+                                contact@stephanegelibert.com
                                 </Button>
                             </Link>
                         </ListItem>
