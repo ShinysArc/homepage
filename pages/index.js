@@ -153,9 +153,9 @@ const Page = () => {
                     </Heading>
                     <List>
                         <ListItem>
-                            <Link href="https://fr.linkedin.com/in/stéphane-gelibert-106bbb175" target="_blank">
+                            <Link href="https://fr.linkedin.com/in/stephane-gelibert" target="_blank">
                                 <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoLinkedin} />}>
-                                    @stephanegelibert
+                                    @stephane-gelibert
                                 </Button>
                             </Link>
                         </ListItem>

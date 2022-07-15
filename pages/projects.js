@@ -6,6 +6,7 @@ import thumb42sh from '../public/images/projects/42sh_preview.png'
 import thumbJWS from '../public/images/projects/jws_preview.png'
 import thumbTiger from '../public/images/projects/tiger_preview.png'
 import thumbOCR from '../public/images/projects/ocr_preview.png'
+import thumbPING from '../public/images/projects/ping_preview.png'
 import Layout from '../components/layouts/article'
 
 const Projects = () => {
@@ -17,6 +18,11 @@ const Projects = () => {
                 </Heading>
 
                 <SimpleGrid columns={[1, 1, 2]} gap={6}>
+                    <Section>
+                        <WorkGridItem id="ping" title="PING" thumbnail={thumbPING}>
+                            A C/C++ IDE written in 3 weeks.
+                        </WorkGridItem>
+                    </Section>
                     <Section>
                         <WorkGridItem id="tiger" title="Tiger Compiler" thumbnail={thumbTiger}>
                             A C++ compiler for the toy language Tiger.
