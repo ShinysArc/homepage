@@ -60,7 +60,7 @@ const Page = () => {
 	    			Odin Vision
 	    		</Link>
 	    		{' '}
-	    		as a sofwtare engineer intern.
+	    		as a software engineer intern.
                         Interested by my profile? {' '}
                         <Link href="/files/resume.pdf" target="_blank">
                             Click here to see my resume
