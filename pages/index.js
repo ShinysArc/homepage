@@ -120,6 +120,25 @@ const Page = () => {
                     </List>
                 </Section>
 
+                <Section delay={0.3}>
+                    <Heading as="h3" variant="section-title">
+                        Hackathons
+                    </Heading>
+                    <List>
+                        <ListItem>
+                            <BioYear>Meta Global Hackathon</BioYear>
+                            Finished 13th in the EMEA region.
+                        </ListItem>
+                        <ListItem>
+                            <BioYear>GottaGoHack #3</BioYear>
+                            Built a CRM for hospitals in a team of 4. The project is available at {' '}
+                            <Link href="https://www.stephanegelibert.com/projects/asclepios" target="_blank">
+                                this link
+                            </Link>.
+                        </ListItem>
+                    </List>
+                </Section>
+
                 <Section delay={0.2}>
                     <Heading as="h3" variant="section-title">
                         Bio
