@@ -108,7 +108,7 @@ const Page = () => {
                             <BioYear>Odin Vision</BioYear><Badge>2022</Badge>
                             <br />
                             Software Engineer Intern.
-                            I am working on the company's main product called CADDIE by developing new features and fixing bugs.
+                            I am working on the company&apos;s main product called CADDIE by developing new features and fixing bugs.
                         </ListItem>
                         <br />
                         <ListItem>
