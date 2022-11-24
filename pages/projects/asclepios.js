@@ -40,7 +40,7 @@ const Project = () => {
                         <Meta>Tags</Meta>
                         <span>
                             <Link href='https://en.wikipedia.org/wiki/Python_(programming_language)' target="_blank">
-                                C99 Standard
+                                Python
                             </Link>, {' '}
                             <Link href='https://github.com/ibarrond/Pyfhel' target="_blank">
                                 Pyfhel
