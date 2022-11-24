@@ -7,6 +7,7 @@ import thumbJWS from '../public/images/projects/jws_preview.png'
 import thumbTiger from '../public/images/projects/tiger_preview.png'
 import thumbOCR from '../public/images/projects/ocr_preview.png'
 import thumbPING from '../public/images/projects/ping_preview.png'
+import thumbAsclepios from '../public/images/projects/asclepios_preview.png'
 import Layout from '../components/layouts/article'
 
 const Projects = () => {
@@ -18,6 +19,11 @@ const Projects = () => {
                 </Heading>
 
                 <SimpleGrid columns={[1, 1, 2]} gap={6}>
+                    <Section>
+                        <WorkGridItem id="asclepios" title="Asclepios" thumbnail={thumbAsclepios}>
+                            A web application that allows hospitals to manage medical records.
+                        </WorkGridItem>
+                    </Section>
                     <Section>
                         <WorkGridItem id="ping" title="PING" thumbnail={thumbPING}>
                             A C/C++ IDE written in 3 weeks.
