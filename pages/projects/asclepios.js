@@ -17,7 +17,7 @@ const Project = () => {
                         Aurèle Oulès
                     </Link>, {' '}
                     <Link href='https://github.com/bunbun721' target="_blank">
-                        Georgia Bjärstal
+                        Georgia Bjärstål
                     </Link>, {' '}
                     <Link href='https://github.com/yamidea' target="_blank">
                         Marie Dumestre
