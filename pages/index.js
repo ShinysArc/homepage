@@ -1,5 +1,5 @@
 import NextLink from 'next/link'
-import { Button, Container, Box, Heading, Image, Link, List, ListItem, Icon, useColorModeValue } from '@chakra-ui/react'
+import { Button, Container, Badge, Box, Heading, Image, Link, List, ListItem, Icon, useColorModeValue } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
@@ -95,6 +95,27 @@ const Page = () => {
                         <ListItem>
                             <BioYear>Certificates</BioYear>
                             Driving license
+                        </ListItem>
+                    </List>
+                </Section>
+
+                <Section delay={0.3}>
+                    <Heading as="h3" variant="section-title">
+                        Work experience
+                    </Heading>
+                    <List>
+                        <ListItem>
+                            <BioYear>Odin Vision</BioYear><Badge>2022</Badge>
+                            <br />
+                            Software Engineer Intern.
+                            I am working on the company's main product called CADDIE by developing new features and fixing bugs.
+                        </ListItem>
+                        <br />
+                        <ListItem>
+                            <BioYear>Google Developer Student Club</BioYear><Badge>2022</Badge>
+                            <br />
+                            Engagement Director.
+                            I am in charge of the community engagement and making sure the stays active.
                         </ListItem>
                     </List>
                 </Section>
