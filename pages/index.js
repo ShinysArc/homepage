@@ -132,7 +132,7 @@ const Page = () => {
                         <ListItem>
                             <BioYear>GottaGoHack #3</BioYear>
                             Built a CRM for hospitals in a team of 4. The project is available at {' '}
-                            <Link href="https://www.stephanegelibert.com/projects/asclepios" target="_blank">
+                            <Link href="https://www.stephanegelibert.com/projects/asclepios">
                                 this link
                             </Link>.
                         </ListItem>
