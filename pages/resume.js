@@ -97,7 +97,7 @@ const Resume = () => (
                         </div>
                         <div className={styles["text"]}>
                             <ul>
-                                <li>Worked on the company&pos;s main product called CADDIE by developing new features and fixing bugs.</li>
+                                <li>Worked on the company&apos;s main product called CADDIE by developing new features and fixing bugs.</li>
                             </ul>
                         </div>
                     </div>
