@@ -54,15 +54,8 @@ const Page = () => {
                         I have a knack for all things related to IT, programming, and development.
                         <br />
                         When not online, I love hanging out with my camera.
-                        I am currently working at
-	    		{' '}
-	    		<Link href="https://odin-vision.com" target="_blank">
-	    			Odin Vision
-	    		</Link>
-	    		{' '}
-	    		as a software engineer intern.
                         Interested by my profile? {' '}
-                        <Link href="/files/resume.pdf" target="_blank">
+                        <Link href="/resume">
                             Click here to see my resume
                         </Link>
                         {' '} or {' '}

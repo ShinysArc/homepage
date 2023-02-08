@@ -1,0 +1,199 @@
+@import url('fontawesome/css/fontawesome.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,200');
+
+.page {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    position: relative;
+
+    width: 210mm;
+    height: 297mm;
+  
+    padding: 32px;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.4);
+}
+  
+@page {
+    size: A4;
+    margin: 0;
+}
+
+.section {
+    margin-top: 30px;
+    font-family: 'M PLUS Rounded 1c';
+    font-weight: 500;
+}
+
+.item {
+    margin-top: 20px;
+}
+
+.name {
+    font-family: 'M PLUS Rounded 1c';
+    font-weight: bold;
+    font-size: 34px;
+}
+
+.description {
+    font-size: 16px;
+    line-height: 1.4em;
+    font-family: 'M PLUS Rounded 1c';
+}
+
+.description-emphasize {
+    font-weight: bold;
+}
+
+.contact {
+    display: flex;
+    font-family: 'M PLUS Rounded 1c';
+    margin-top: 6px;
+}
+
+.contact-item {
+    margin-top: 6px;
+    margin-right: 14px;
+
+    font-size: 13px;
+}
+
+.contact .icon {
+    display: inline-block;
+    vertical-align: baseline;
+    width: 10px;
+
+    margin-right: 4px;
+}
+
+.contact .icon-font {
+    font-family: 'Material Symbols Outlined';
+    font-size: 14px;
+    vertical-align: text-top;
+}
+
+.contact .icon-font-brand {
+    font-family: 'Font Awesome 6 Brands';
+}
+
+.subtitle {
+    font-family: 'M PLUS Rounded 1c';
+    font-size: 16px;
+}
+
+.education-icons {
+    display: flex;
+
+    margin-top: 2px;
+    vertical-align: text-top;
+
+    font-size: 13px;
+}
+
+.emphasize {
+    font-weight: bold;
+}
+
+.icon-font {
+    font-family: 'Material Symbols Outlined';
+    font-size: 13px;
+    vertical-align: text-top;
+}
+
+.date {
+    margin-left: 20px;
+}
+
+.education .text {
+    margin-top: 2px;
+    margin-left: 12px;
+
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.experience {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.experience .subtitle {
+    font-size: 16px;
+}
+
+.experience .text {
+    margin-top: 2px;
+    margin-left: 12px;
+
+    font-size: 15px;
+}
+
+.experience-image {
+    width: 10%;
+
+    text-align: center;
+}
+
+.experience-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.experience-icons {
+    display: flex;
+
+    font-size: 12px;
+}
+
+.skills-header {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+.skills-list {
+    margin-left: 4%;
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 18px;
+}
+
+.projects-header {
+    display: flex;
+}
+
+.projects .subtitle {
+    font-size: 16px;
+}
+
+.projects-image {
+    width: 20px;
+    margin-top: 1px;
+    margin-left: 10px;
+    float: right;
+}
+
+.projects-icons {
+    font-size: 16px;
+}
+
+.projects .icon-font {
+    font-size: 13px;
+}
+
+.projects .date {
+    font-size: 14px;
+    right: 4%;
+    position: absolute;
+}
+
+.projects .text {
+    margin-top: 2px;
+
+    font-size: 14px;
+}
