@@ -1,6 +1,7 @@
 import { Page, Name } from '../components/page'
 import styles from '../styles/Resume.module.css'
 import Layout from '../components/layouts/article'
+import { IoCalendarOutline, IoGlobeOutline, IoLocationOutline, IoLogoLinkedin, IoMailOutline } from 'react-icons/io5'
 import { Box, Heading, Image, Link, useColorModeValue } from '@chakra-ui/react'
 
 const Resume = () => (
@@ -15,25 +16,19 @@ const Resume = () => (
 
             <div className={styles["contact"]}>
                 <Link className={styles["contact-item"]} target="_blank" href="https://www.google.com/maps/place/Paris/@48.864872,2.2183041,11z/data=!4m5!3m4!1s0x47e66e1f06e2b70f:0x40b82c3688c9460!8m2!3d48.856614!4d2.3522219">
-                    <span className={styles["icon-font"]}>
-                        location_on
-                    </span> Paris, France
+                    <IoLocationOutline className={styles["icon-font"]} /> Paris, France
                 </Link>
 
                 <Link className={styles["contact-item"]} target="_blank" href="/">
-                <span className={styles["icon-font"]}>
-                    language
-                </span> stephanegelibert.com
+                <IoGlobeOutline className={styles["icon-font"]} /> stephanegelibert.com
                 </Link>
 
                 <Link className={styles["contact-item"]} target="_blank" href="mailto:contact@stephanegelibert.com">
-                    <span className={styles["icon-font"]}>
-                        mail
-                    </span> contact@stephanegelibert.com
+                    <IoMailOutline className={styles["icon-font"]} /> contact@stephanegelibert.com
                 </Link>
 
                 <Link className={styles["contact-item"]} target="_blank" href="https://www.linkedin.com/in/stephane-gelibert/">
-                    <span className={styles["icon-font-brand"]}></span> stephane-gelibert
+                    <IoLogoLinkedin className={styles["icon-font"]} /> stephane-gelibert
                 </Link>
             </div>
 
@@ -51,14 +46,10 @@ const Resume = () => (
 
                         <div className={styles["education-icons"]}>
                             <div className={styles["location"]}>
-                                <span className={styles["icon-font"]}>
-                                    location_on
-                                </span> Paris, France
+                                <IoLocationOutline className={styles["icon-font"]} /> Paris, France
                             </div>
                             <div className={styles["date"]}>
-                                <span className={styles["icon-font"]}>
-                                    calendar_month
-                                </span> Sep. 2018 - Sep. 2024
+                                <IoCalendarOutline className={styles["icon-font"]} /> Sep. 2018 - Sep. 2024
                             </div>
                         </div>
 
@@ -84,14 +75,10 @@ const Resume = () => (
                             </div>
                             <div className={styles["experience-icons"]}>
                                 <div className={styles["location"]}>
-                                    <span className={styles["icon-font"]}>
-                                        location_on
-                                    </span> London, UK
+                                    <IoLocationOutline className={styles["icon-font"]} /> London, UK
                                 </div>
                                 <div className={styles["date"]}>
-                                    <span className={styles["icon-font"]}>
-                                        calendar_month
-                                    </span> Sept. 2022 - Jan. 2023
+                                    <IoCalendarOutline className={styles["icon-font"]} /> Sept. 2022 - Jan. 2023
                                 </div>
                             </div>
                         </div>
@@ -163,9 +150,7 @@ const Resume = () => (
                                     <Image className={styles["projects-image"]} src="/images/resume/Cplusplus.svg" alt="Cplusplus" />
                                 </div>
                                 <div className={styles["date"]}>
-                                    <span className={styles["icon-font"]}>
-                                        calendar_month
-                                    </span> Mar. 2022 - Apr. 2023
+                                    <IoCalendarOutline className={styles["icon-font"]} /> Mar. 2022 - Apr. 2023
                                 </div>
                             </div>
                             <div className={styles["text"]}>
@@ -183,9 +168,7 @@ const Resume = () => (
                                     <Image className={styles["projects-image"]} src="/images/resume/Java.svg" alt="Java" />
                                 </div>
                                 <div className={styles["date"]}>
-                                    <span className={styles["icon-font"]}>
-                                        calendar_month
-                                    </span> Fev. 2022
+                                    <IoCalendarOutline className={styles["icon-font"]} /> Fev. 2022
                                 </div>
                             </div>
                             <div className={styles["text"]}>
@@ -203,9 +186,7 @@ const Resume = () => (
                                     <Image className={styles["projects-image"]} src="/images/resume/C.svg" alt="C" />
                                 </div>
                                 <div className={styles["date"]}>
-                                    <span className={styles["icon-font"]}>
-                                        calendar_month
-                                    </span> Nov. 2021 - Dec. 2021
+                                    <IoCalendarOutline className={styles["icon-font"]} /> Nov. 2021 - Dec. 2021
                                 </div>
                             </div>
                             <div className={styles["text"]}>
@@ -222,9 +203,7 @@ const Resume = () => (
                                     <Image className={styles["projects-image"]} src="/images/resume/C.svg" alt="C" />
                                 </div>
                                 <div className={styles["date"]}>
-                                    <span className={styles["icon-font"]}>
-                                        calendar_month
-                                    </span> Sept. 2020 - Nov. 2020
+                                    <IoCalendarOutline className={styles["icon-font"]} /> Sept. 2020 - Nov. 2020
                                 </div>
                             </div>
                             <div className={styles["text"]}>
@@ -241,9 +220,7 @@ const Resume = () => (
                                     <img className={styles["projects-image"]} src="/images/resume/Csharp.svg" alt="Csharp" />
                                 </div>
                                 <div className={styles["date"]}>
-                                    <span className={styles["icon-font"]}>
-                                        calendar_month
-                                    </span> Feb. 2019 - May 2019
+                                    <IoCalendarOutline className={styles["icon-font"]} /> Feb. 2019 - May 2019
                                 </div>
                             </div>
                             <div className={styles["text"]}>
