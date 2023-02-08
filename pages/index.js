@@ -90,7 +90,7 @@ const Page = () => {
                         </ListItem>
                         <ListItem>
                             <BioYear>Languages</BioYear>
-                            French, English (TOEIC 965)
+                            French, Chinese Mandarin, English (TOEIC 965)
                         </ListItem>
                         <ListItem>
                             <BioYear>Certificates</BioYear>
@@ -115,7 +115,7 @@ const Page = () => {
                             <BioYear>Google Developer Student Club</BioYear><Badge>2022</Badge>
                             <br />
                             Engagement Director.
-                            I am in charge of the community engagement and making sure the stays active.
+                            I am in charge of the community engagement and making sure the club stays active.
                         </ListItem>
                     </List>
                 </Section>
@@ -148,6 +148,10 @@ const Page = () => {
                         Student at Epita engineering school.
                     </BioSection>
                     <BioSection>
+                        <BioYear>2022</BioYear>
+                        Worked at Odin Vision as an intern.
+                    </BioSection>
+                    <BioSection>
                         <BioYear>2018</BioYear>
                         Obtained the scientific baccalaureate, with honors.
                     </BioSection>
@@ -165,8 +169,8 @@ const Page = () => {
                         <ListItem>
                             <Paragraph>
                                 <BioYear>Taekwondo</BioYear>
-                                I have practiced Taekwondo for a few years and I have to say I fell in love with it.
-                                Although in the last 3 years I haven&apos;t had many occasions to go to training, I always enjoy a fun kicking session.
+                                I have been practicing Taekwondo for a few years and I have to say I fell in love with it.
+                                I always enjoy a fun kicking session. I am currently training the ITF style.
                             </Paragraph>
                         </ListItem>
                         <br />
