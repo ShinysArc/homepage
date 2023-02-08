@@ -179,7 +179,8 @@ const Resume = () => (
                             <div className={styles["projects-header"]}>
                                 <div className={styles["subtitle"]}>
                                     <span className={styles["emphasize"]}>JWS</span>
-                                    <Image className={styles["projects-image"]} src="/images/resume/Cplusplus.svg" alt="Cplusplus" />
+                                    <Image className={styles["projects-image"]} src="/images/resume/PostgreSQL.svg" alt="PostgreSQL" />
+                                    <Image className={styles["projects-image"]} src="/images/resume/Java.svg" alt="Java" />
                                 </div>
                                 <div className={styles["date"]}>
                                     <span className={styles["icon-font"]}>
@@ -199,7 +200,7 @@ const Resume = () => (
                             <div className={styles["projects-header"]}>
                                 <div className={styles["subtitle"]}>
                                     <span className={styles["emphasize"]}>42sh</span>
-                                    <Image className={styles["projects-image"]} src="/images/resume/Cplusplus.svg" alt="Cplusplus" />
+                                    <Image className={styles["projects-image"]} src="/images/resume/C.svg" alt="C" />
                                 </div>
                                 <div className={styles["date"]}>
                                     <span className={styles["icon-font"]}>
@@ -218,7 +219,7 @@ const Resume = () => (
                             <div className={styles["projects-header"]}>
                                 <div className={styles["subtitle"]}>
                                     <span className={styles["emphasize"]}>OCR</span>
-                                    <Image className={styles["projects-image"]} src="/images/resume/Cplusplus.svg" alt="Cplusplus" />
+                                    <Image className={styles["projects-image"]} src="/images/resume/C.svg" alt="C" />
                                 </div>
                                 <div className={styles["date"]}>
                                     <span className={styles["icon-font"]}>
@@ -237,7 +238,7 @@ const Resume = () => (
                             <div className={styles["projects-header"]}>
                                 <div className={styles["subtitle"]}>
                                     <span className={styles["emphasize"]}>Tales of Talris</span>
-                                    <img className={styles["projects-image"]} src="/images/resume/Cplusplus.svg" alt="Cplusplus" />
+                                    <img className={styles["projects-image"]} src="/images/resume/Csharp.svg" alt="Csharp" />
                                 </div>
                                 <div className={styles["date"]}>
                                     <span className={styles["icon-font"]}>
