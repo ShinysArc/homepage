@@ -45,7 +45,7 @@ const Resume = () => (
                 <div className={styles["education"]}>
                     <div className={styles["item"]}>
                         <div className={styles["subtitle"]}>
-                            <span className={styles["emphasize"]}><Link target="_blank" href="https://www.epita.fr/en/">École Pour l'Informatique et les Techniques Avancées - EPITA</Link></span>
+                            <span className={styles["emphasize"]}><Link target="_blank" href="https://www.epita.fr/en/">École Pour l&apos;Informatique et les Techniques Avancées - EPITA</Link></span>
                             &nbsp;(M.Eng. in Computer Science)
                         </div>
 
@@ -97,7 +97,7 @@ const Resume = () => (
                         </div>
                         <div className={styles["text"]}>
                             <ul>
-                                <li>Worked on the company's main product called CADDIE by developing new features and fixing bugs.</li>
+                                <li>Worked on the company&pos;s main product called CADDIE by developing new features and fixing bugs.</li>
                             </ul>
                         </div>
                     </div>
