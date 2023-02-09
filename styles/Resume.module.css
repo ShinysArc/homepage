@@ -188,3 +188,16 @@
 
     font-size: 14px;
 }
+
+.footer {
+    position: absolute;
+    bottom: 3mm;
+
+    width: 100%;
+
+    text-align: center;
+    color: rgb(100, 100, 100);
+    font-size: 11px;
+
+    opacity: 0.8;
+}

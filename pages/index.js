@@ -52,8 +52,10 @@ const Page = () => {
                     <Paragraph>
                         I am Stephane Gelibert, a computer engineering student at EPITA, based in Paris, France.
                         I have a knack for all things related to IT, programming, and development.
+                        I am currently specializing in cybersecurity.
                         <br />
                         When not online, I love hanging out with my camera.
+                        <br />
                         Interested by my profile? {' '}
                         <Link href="/resume">
                             Click here to see my resume
@@ -79,7 +81,7 @@ const Page = () => {
                     <List>
                         <ListItem>
                             <BioYear>Programming languages</BioYear>
-                            C/C++, Java, C#, Python, JavaScript, Rust, OCaml
+                            C, C++, Java, C#, Python, JavaScript, Rust, OCaml
                         </ListItem>
                         <ListItem>
                             <BioYear>Languages</BioYear>
