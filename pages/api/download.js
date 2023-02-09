@@ -1,7 +1,15 @@
-import puppeteer from 'puppeteer'
+import edgeChromium from 'chrome-aws-lambda'
+import puppeteer from 'puppeteer-core'
 
-export default async (req, res) => {
-  const browser = await puppeteer.launch()
+const LOCAL_CHROME_EXECUTABLE = '/usr/bin/google-chrome-stable'
+
+const download = async (req, res) => {
+  const executablePath = await edgeChromium.executablePath || LOCAL_CHROME_EXECUTABLE
+  const browser = await puppeteer.launch({
+    executablePath,
+    args: edgeChromium.args,
+    headless: false,
+  })
   const page = await browser.newPage()
 
   await page.goto(`http://localhost:3000/resume`, { waitUntil: 'networkidle2' })
@@ -38,3 +46,5 @@ export default async (req, res) => {
 
   await browser.close()
 }
+
+export default download
