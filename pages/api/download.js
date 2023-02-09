@@ -26,16 +26,12 @@ export default async (req, res) => {
 </html>
   `
 
-  fs.writeFileSync('public/resume.html', html)
-
-  await page.goto(`file://${process.cwd()}/public/resume.html`, { waitUntil: 'networkidle2' })
+  await page.setContent(html)
 
   const pdf = await page.pdf({
     format: 'A4',
     printBackground: true
-  });
-
-  fs.unlinkSync('public/resume.html')
+  })
 
   res.setHeader('Content-Type', 'application/pdf')
   res.setHeader('Content-Disposition', 'attachment; filename="resume.pdf"')
