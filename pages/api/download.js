@@ -1,5 +1,4 @@
 import puppeteer from 'puppeteer'
-import fs from 'fs'
 
 export default async (req, res) => {
   const browser = await puppeteer.launch()
