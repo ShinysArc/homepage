@@ -3,7 +3,6 @@ import styles from '../styles/Resume.module.css'
 import Layout from '../components/layouts/article'
 import { IoCalendarOutline, IoGlobeOutline, IoLocationOutline, IoLogoLinkedin, IoMailOutline } from 'react-icons/io5'
 import { Box, Button, Heading, Image, Link, useColorModeValue } from '@chakra-ui/react'
-import { useState, useEffect } from 'react'
 
 export const ResumeContent = () => (
     <Page >
@@ -89,7 +88,7 @@ export const ResumeContent = () => (
                     </div>
                 </div>
                 <div className={styles["experience-image"]}>
-                    <Image src="/images/resume/odin_logo.png" alt="icon-ov" />
+                    <Image src="images/resume/odin_logo.png" alt="icon-ov" />
                 </div>
             </div>
         </div>
@@ -147,7 +146,7 @@ export const ResumeContent = () => (
                         <div className={styles["projects-header"]}>
                             <div className={styles["subtitle"]}>
                                 <span className={styles["emphasize"]}>Tiger Compiler</span>
-                                <Image className={styles["projects-image"]} src="/images/resume/Cplusplus.svg" alt="Cplusplus" />
+                                <Image className={styles["projects-image"]} src="images/resume/Cplusplus.svg" alt="Cplusplus" />
                             </div>
                             <div className={styles["date"]}>
                                 <IoCalendarOutline className={styles["icon-font"]} /> Mar. 2022 - Apr. 2023
@@ -164,8 +163,8 @@ export const ResumeContent = () => (
                         <div className={styles["projects-header"]}>
                             <div className={styles["subtitle"]}>
                                 <span className={styles["emphasize"]}>JWS</span>
-                                <Image className={styles["projects-image"]} src="/images/resume/PostgreSQL.svg" alt="PostgreSQL" />
-                                <Image className={styles["projects-image"]} src="/images/resume/Java.svg" alt="Java" />
+                                <Image className={styles["projects-image"]} src="images/resume/PostgreSQL.svg" alt="PostgreSQL" />
+                                <Image className={styles["projects-image"]} src="images/resume/Java.svg" alt="Java" />
                             </div>
                             <div className={styles["date"]}>
                                 <IoCalendarOutline className={styles["icon-font"]} /> Fev. 2022
@@ -183,7 +182,7 @@ export const ResumeContent = () => (
                         <div className={styles["projects-header"]}>
                             <div className={styles["subtitle"]}>
                                 <span className={styles["emphasize"]}>42sh</span>
-                                <Image className={styles["projects-image"]} src="/images/resume/C.svg" alt="C" />
+                                <Image className={styles["projects-image"]} src="images/resume/C.svg" alt="C" />
                             </div>
                             <div className={styles["date"]}>
                                 <IoCalendarOutline className={styles["icon-font"]} /> Nov. 2021 - Dec. 2021
@@ -200,7 +199,7 @@ export const ResumeContent = () => (
                         <div className={styles["projects-header"]}>
                             <div className={styles["subtitle"]}>
                                 <span className={styles["emphasize"]}>OCR</span>
-                                <Image className={styles["projects-image"]} src="/images/resume/C.svg" alt="C" />
+                                <Image className={styles["projects-image"]} src="images/resume/C.svg" alt="C" />
                             </div>
                             <div className={styles["date"]}>
                                 <IoCalendarOutline className={styles["icon-font"]} /> Sept. 2020 - Nov. 2020
@@ -217,7 +216,7 @@ export const ResumeContent = () => (
                         <div className={styles["projects-header"]}>
                             <div className={styles["subtitle"]}>
                                 <span className={styles["emphasize"]}>Tales of Talris</span>
-                                <img className={styles["projects-image"]} src="/images/resume/Csharp.svg" alt="Csharp" />
+                                <img className={styles["projects-image"]} src="images/resume/Csharp.svg" alt="Csharp" />
                             </div>
                             <div className={styles["date"]}>
                                 <IoCalendarOutline className={styles["icon-font"]} /> Feb. 2019 - May 2019
@@ -242,18 +241,9 @@ export const ResumeContent = () => (
 )
 
 const DownloadButton = () => {
-    const [pdfUrl, setPdfUrl] = useState(null);
-
-    useEffect(() => {
-        fetch('/api/download')
-        .then(res => res.blob())
-        .then(blob => setPdfUrl(URL.createObjectURL(blob)))
-        .catch(err => console.error(err));
-    }, []);
-
     return (
         <Box align="center" my={4}>
-            <a href={pdfUrl} download>
+            <a href="/api/download" target="_blank">
                 <Button colorScheme="teal">
                     Download PDF
                 </Button>
