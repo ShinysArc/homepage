@@ -1,15 +1,15 @@
-import edgeChromium from 'chrome-aws-lambda'
 import puppeteer from 'puppeteer-core'
-
-const LOCAL_CHROME_EXECUTABLE = '/usr/bin/google-chrome-stable'
+import chromium from '@sparticuz/chromium-min'
 
 const download = async (req, res) => {
-  const executablePath = await edgeChromium.executablePath || LOCAL_CHROME_EXECUTABLE
-  const browser = await puppeteer.launch({
-    executablePath,
-    args: edgeChromium.args,
-    headless: false,
-  })
+  const options = {
+    args: chromium.args,
+    executablePath: await chromium.executablePath(),
+    headless: true,
+  }
+
+  const browser = await puppeteer.launch(options)
+
   const page = await browser.newPage()
 
   await page.goto(`http://localhost:3000/resume`, { waitUntil: 'networkidle2' })
