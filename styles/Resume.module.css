@@ -1,3 +1,12 @@
+.resume ul {
+    margin-top: 4px;
+    margin-bottom: 0;
+}
+
+.resume li {
+    margin: 1px 0;
+}
+
 .resume {
     margin-top: 1%;
     display: flex;
@@ -21,11 +30,6 @@
 
     width: 210mm;
     height: 297mm;
-}
-
-@page {
-    size: A4;
-    margin: 0;
 }
 
 @media (max-width: 220mm) {
@@ -149,6 +153,7 @@
 
 .experience-image {
     width: 10%;
+    margin-right: auto;
 
     text-align: center;
 }
@@ -203,7 +208,7 @@
 
 .projects .date {
     font-size: 14px;
-    right: 5%;
+    right: 6%;
     position: absolute;
 }
 
@@ -216,7 +221,7 @@
 .footer {
     width: 100%;
 
-    margin-top: 2%;
+    margin-top: 4%;
     text-align: center;
     color: rgb(100, 100, 100);
     font-size: 11px;
