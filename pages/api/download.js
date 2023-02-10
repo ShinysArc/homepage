@@ -4,7 +4,7 @@ import puppeteer from 'puppeteer-core'
 const LOCAL_CHROME_EXECUTABLE = '/tmp/chromium';
 
 const download = async (req, res) => {
-  const executablePath = (await Chromium.executablePath()) || LOCAL_CHROME_EXECUTABLE
+  const executablePath = (await Chromium.executablePath) || LOCAL_CHROME_EXECUTABLE
   const browser = await puppeteer.launch({
     headless: true,
     executablePath,
