@@ -243,7 +243,7 @@ export const ResumeContent = () => (
 const DownloadButton = () => {
     return (
         <Box align="center" my={4}>
-            <a href="/api/download" target="_blank">
+            <a href={useColorModeValue("/api/download", "/api/download-dark")} target="_blank">
                 <Button colorScheme="teal">
                     Download PDF
                 </Button>
