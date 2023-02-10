@@ -4,7 +4,7 @@
   "description": "Stephane's website",
   "scripts": {
     "dev": "next dev -H 0.0.0.0",
-    "build": "next build && npx playwright install",
+    "build": "next build && npm i -D playwright",
     "prettier": "prettier --write .",
     "lint": "next lint"
   },
