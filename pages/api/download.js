@@ -1,4 +1,4 @@
-import { chromium } from "playwright"
+import { chromium } from "playwright-core"
 
 const download = async (req, res) => {
   const browser = await chromium.launch()
