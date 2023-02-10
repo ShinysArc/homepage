@@ -1,13 +1,18 @@
+.resume {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 .page-main {
+    flex-shrink: 0;
     position: relative;
-    margin-top: 2%;
-    margin-bottom: 2%;
     box-shadow:rgba(0, 0, 0, 0.4) 1px 1px 10px 1px;
 
     width: 210mm;
     height: 297mm;
 
-    padding: 32px;
+    padding: 14mm 12mm;
 }
 
 .page-main {
@@ -192,9 +197,6 @@
 }
 
 .footer {
-    position: absolute;
-    bottom: 3mm;
-
     width: 100%;
 
     text-align: center;
