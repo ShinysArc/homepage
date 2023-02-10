@@ -11,7 +11,7 @@ const download = async (req, res) => {
     args: Chromium.args,
   })
   const page = await browser.newPage()
-  await page.goto(`http://localhost:3000/resume`, { waitUntil: 'networkidle2' })
+  await page.goto(`https://stephanegelibert.com/resume`, { waitUntil: 'networkidle2' })
 
   let head = await page.evaluate(() =>
   document.head.outerHTML)
