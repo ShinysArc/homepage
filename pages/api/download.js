@@ -8,7 +8,7 @@ const download = async (req, res) => {
   const browser = await puppeteer.launch({
     headless: true,
     executablePath,
-    args: edgeChromium.args,
+    args: Chromium.args,
   })
   const page = await browser.newPage()
   await page.goto(`http://localhost:3000/resume`, { waitUntil: 'networkidle2' })
