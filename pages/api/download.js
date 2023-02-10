@@ -1,10 +1,13 @@
 import { chromium } from "playwright-core"
+import Chromium from "@sparticuz/chromium"
 
 const download = async (req, res) => {
-  const browser = await chromium.launch()
-
+  const browser = await chromium.launch({
+    headless: true,
+    executablePath: await Chromium.executablePath(),
+    args: Chromium.args
+  })
   const page = await browser.newPage()
-
   await page.goto(`http://localhost:3000/resume`, { waitUntil: 'networkidle' })
 
   let head = await page.evaluate(() =>

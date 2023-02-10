@@ -4,7 +4,7 @@
   "description": "Stephane's website",
   "scripts": {
     "dev": "next dev -H 0.0.0.0",
-    "build": "next build && npm i -D playwright",
+    "build": "next build",
     "prettier": "prettier --write .",
     "lint": "next lint"
   },
@@ -16,6 +16,7 @@
     "@chakra-ui/react": "^1.8.6",
     "@emotion/react": "^11.8.1",
     "@emotion/styled": "^11.8.1",
+    "@sparticuz/chromium-min": "^110.0.0",
     "framer-motion": "^6.2.8",
     "fs-extra": "^10.0.1",
     "next": "^12.1.0",
@@ -27,6 +28,7 @@
     "three": "^0.138.3"
   },
   "devDependencies": {
+    "@sparticuz/chromium": "^110.0.0",
     "eslint-config-next": "^12.1.0",
     "playwright": "^1.30.0",
     "prettier": "^2.5.1"
