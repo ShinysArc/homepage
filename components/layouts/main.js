@@ -13,12 +13,12 @@ const Main = ({ children, router }) => {
                 <title>Stephane Gelibert</title>
             </Head>
 
-            <NavBar path={router.asPath} />
+            {router.asPath !== '/resume-content' && (<NavBar path={router.asPath} />)}
 
             <Container maxW="container.md" pt={14}>
                 {children}
 
-                <Footer />
+                {router.asPath !== '/resume-content' && (<Footer />)}
             </Container>
         </Box>
     )
