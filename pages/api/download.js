@@ -1,14 +1,17 @@
-import { chromium } from "playwright-core"
-import Chromium from "@sparticuz/chromium"
+import edgeChromium from 'chrome-aws-lambda'
+import puppeteer from 'puppeteer-core'
+
+const LOCAL_CHROME_EXECUTABLE = '/tmp/chromium';
 
 const download = async (req, res) => {
-  const browser = await chromium.launch({
+  const executablePath = (await edgeChromium.executablePath) || LOCAL_CHROME_EXECUTABLE
+  const browser = await puppeteer.launch({
     headless: true,
-    executablePath: await Chromium.executablePath(),
-    args: Chromium.args
+    executablePath,
+    args: edgeChromium.args,
   })
   const page = await browser.newPage()
-  await page.goto(`http://localhost:3000/resume`, { waitUntil: 'networkidle' })
+  await page.goto(`http://localhost:3000/resume`, { waitUntil: 'networkidle2' })
 
   let head = await page.evaluate(() =>
   document.head.outerHTML)
