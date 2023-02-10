@@ -2,11 +2,11 @@ import { Page, Name } from '../components/page'
 import styles from '../styles/Resume.module.css'
 import Layout from '../components/layouts/article'
 import { IoCalendarOutline, IoGlobeOutline, IoLocationOutline, IoLogoLinkedin, IoMailOutline } from 'react-icons/io5'
-import { Box, Button, Heading, Image, Link, useColorModeValue } from '@chakra-ui/react'
+import { Box, Button, Container, Heading, Image, Link, useColorModeValue } from '@chakra-ui/react'
 
 export const ResumeContent = () => (
     <div className={styles["resume"]}>
-        <Page >
+        <Page>
             <Name>Stéphane Gelibert</Name>
             <Box className={styles["description"]}
                 color={useColorModeValue('teal', 'glassTeal')}

@@ -1,4 +1,5 @@
 .resume {
+    margin-top: 1%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -15,11 +16,27 @@
     padding: 14mm 12mm;
 }
 
-.page-main {
+.page {
     position: relative;
 
     width: 210mm;
     height: 297mm;
+}
+
+@page {
+    size: A4;
+    margin: 0;
+}
+
+@media (max-width: 220mm) {
+    .resume {
+        display: block;
+        padding: 0;
+    }
+
+    .page-main {
+        box-shadow: none;
+    }
 }
 
 .section {
@@ -199,6 +216,7 @@
 .footer {
     width: 100%;
 
+    margin-top: 2%;
     text-align: center;
     color: rgb(100, 100, 100);
     font-size: 11px;
