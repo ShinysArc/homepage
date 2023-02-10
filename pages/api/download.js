@@ -1,19 +1,11 @@
-import puppeteer from 'puppeteer-core'
-import chromium from '@sparticuz/chromium'
+import { chromium } from "playwright"
 
 const download = async (req, res) => {
-  const string = process.cwd() + '/public/chromium'
-  const options = {
-    args: chromium.args,
-    executablePath: await chromium.executablePath(string),
-    headless: true,
-  }
-
-  const browser = await puppeteer.launch(options)
+  const browser = await chromium.launch()
 
   const page = await browser.newPage()
 
-  await page.goto(`http://localhost:3000/resume`, { waitUntil: 'networkidle2' })
+  await page.goto(`http://localhost:3000/resume`, { waitUntil: 'networkidle' })
 
   let head = await page.evaluate(() =>
   document.head.outerHTML)
