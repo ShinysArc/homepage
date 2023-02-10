@@ -2,9 +2,10 @@ import puppeteer from 'puppeteer-core'
 import chromium from '@sparticuz/chromium'
 
 const download = async (req, res) => {
+  const string = process.cwd() + '/public/chromium'
   const options = {
     args: chromium.args,
-    executablePath: await chromium.executablePath(),
+    executablePath: await chromium.executablePath(string),
     headless: true,
   }
 
