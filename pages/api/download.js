@@ -1,10 +1,10 @@
-import edgeChromium from 'chrome-aws-lambda'
+import Chromium from 'chrome-aws-lambda'
 import puppeteer from 'puppeteer-core'
 
 const LOCAL_CHROME_EXECUTABLE = '/tmp/chromium';
 
 const download = async (req, res) => {
-  const executablePath = (await edgeChromium.executablePath) || LOCAL_CHROME_EXECUTABLE
+  const executablePath = (await Chromium.executablePath()) || LOCAL_CHROME_EXECUTABLE
   const browser = await puppeteer.launch({
     headless: true,
     executablePath,
