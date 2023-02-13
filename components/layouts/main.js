@@ -16,6 +16,7 @@ const Main = ({ children, router }) => {
                 <meta name="twitter:card" content="summary_large_image" />
                 <meta name="twitter:site" content="@ShinysArc" />
                 <meta name="twitter:creator" content="@ShinysArc" />
+                <meta name="twitter:description" content="Stephane Gelibert's personal website." />
                 <meta name="twitter:image" content="https://www.stephanegelibert.com/card.png" />
                 <meta property="og:site_name" content="Stephane Gelibert" />
                 <meta name="og:title" content="Stephane Gelibert" />
