@@ -8,8 +8,14 @@ const Main = ({ children, router }) => {
         <Box as="main" pb={8}>
             <Head>
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
-	    	<meta name="description" content="Stephane Gelibert's personal website."/>
-                <link rel="shortcut icon" href="/favicon.png" />
+	    	    <meta name="description" content="Stephane Gelibert's personal website."/>
+                <meta name="author" content="Stephane Gelibert" />
+                <meta name="author" content="ShinysArc" />
+                <link rel="shortcut icon" href="/favicon.png" type="image/x-icon" />
+                <meta property="og:site_name" content="Takuya Matsuyama" />
+                <meta name="og:title" content="Stephane Gelibert" />
+                <meta property="og:type" content="website" />
+                <meta property="og:image" content="https://www.stephanegelibert.com/card.png" />
                 <title>Stephane Gelibert</title>
             </Head>
 

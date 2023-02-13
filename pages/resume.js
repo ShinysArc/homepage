@@ -20,7 +20,7 @@ export const ResumeContent = () => (
                 </Link>
 
                 <Link className={styles["contact-item"]} target="_blank" href="/">
-                <IoGlobeOutline className={styles["icon-font"]} /> stephanegelibert.com
+                    <IoGlobeOutline className={styles["icon-font"]} /> stephanegelibert.com
                 </Link>
 
                 <Link className={styles["contact-item"]} target="_blank" href="mailto:contact@stephanegelibert.com">
@@ -55,7 +55,7 @@ export const ResumeContent = () => (
 
                         <div className={styles["text"]}>
                             <ul>
-                                <li>System, Network, Cybersecurity (SRS major)</li>
+                                <li>System, Network, Security (SRS major)</li>
                             </ul>
                         </div>
                     </div>
@@ -255,7 +255,7 @@ const DownloadButton = () => {
 }
 
 const Resume = () => (
-    <Layout>
+    <Layout title="Resume">
         <ResumeContent />
         <DownloadButton />
     </Layout>
