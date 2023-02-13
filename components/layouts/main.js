@@ -12,15 +12,15 @@ const Main = ({ children, router }) => {
                 <meta name="author" content="Stephane Gelibert" />
                 <meta name="author" content="ShinysArc" />
                 <link rel="shortcut icon" href="/favicon.png" type="image/x-icon" />
+                <meta name="twitter:title" content="Stephane Gelibert" />
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:site" content="@ShinysArc" />
+                <meta name="twitter:creator" content="@ShinysArc" />
+                <meta name="twitter:image" content="https://www.stephanegelibert.com/card.png" />
                 <meta property="og:site_name" content="Stephane Gelibert" />
                 <meta name="og:title" content="Stephane Gelibert" />
                 <meta property="og:type" content="website" />
                 <meta property="og:image" content="https://www.stephanegelibert.com/card.png" />
-                <meta property="og:image:url" content="https://www.stephanegelibert.com/card.png"/>
-                <meta property="og:image:secure_url" content="https://www.stephanegelibert.com/card.png"/>
-                <meta property="og:image:type" content="image/png"/>
-                <meta property="og:image:width" content="1200"/>
-                <meta property="og:image:height" content="656"/>
                 <title>Stephane Gelibert</title>
             </Head>
 
