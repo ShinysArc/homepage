@@ -1,7 +1,7 @@
 import Chromium from 'chrome-aws-lambda'
 import puppeteer from 'puppeteer-core'
 
-const LOCAL_CHROME_EXECUTABLE = '/tmp/chromium';
+const LOCAL_CHROME_EXECUTABLE = '/usr/lib/chromium/chromium';
 
 const download = async (req, res) => {
   const executablePath = (await Chromium.executablePath) || LOCAL_CHROME_EXECUTABLE
