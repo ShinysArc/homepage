@@ -25,7 +25,7 @@ const Projects = () => {
                         </WorkGridItem>
                     </Section>
                     <Section>
-                        <WorkGridItem id="ping" title="PING" thumbnail={thumbPING}>
+                        <WorkGridItem id="barbytes" title="BarBytes" thumbnail={thumbPING}>
                             A C/C++ IDE written in 3 weeks.
                         </WorkGridItem>
                     </Section>

@@ -7,10 +7,10 @@ import { ProjectImage } from '../../components/project'
 
 const Project = () => {
     return (
-        <Layout title="PING">
+        <Layout title="BarBytes">
             <Container>
                 <Title>
-                    PING {' '}<Badge>2022</Badge>
+                    BarBytes {' '}<Badge>2022</Badge>
                 </Title>
 
                 <ProjectImage src="/images/projects/ping.gif" alt="PING" />

@@ -21,12 +21,6 @@ const Project = () => {
                 </P>
                 <List ml={4} my={4}>
                     <ListItem>
-                        <Meta>Source code</Meta>
-                        <Link href='https://gitfront.io/r/ShinysArc/ce88c99c9da7cfd5f160da355d573ebe3d9ad74e/42sh/' target="_blank">
-                            Link<ExternalLinkIcon mx="2px" />
-                        </Link>
-                    </ListItem>
-                    <ListItem>
                         <Meta>Tags</Meta>
                         <span>
                             <Link href='https://en.wikipedia.org/wiki/C_(programming_language)' target="_blank">
