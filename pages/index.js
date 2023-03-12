@@ -100,17 +100,26 @@ const Page = () => {
                     </Heading>
                     <List>
                         <ListItem>
-                            <BioYear>Odin Vision</BioYear><Badge>2022</Badge>
+                            <BioYear>Ephemere</BioYear><Badge>2023 - 2024</Badge>
                             <br />
-                            Software Engineer Intern.
-                            I am working on the company&apos;s main product called CADDIE by developing new features and fixing bugs.
+                            President.
+                            I am in charge of all the events of the club, along with the other board members who help me.
+                            The events include prestations for the other clubs (covers, stands), as well as the integration weekends (WEI) and
+                            events for the members of the club.
                         </ListItem>
                         <br />
                         <ListItem>
-                            <BioYear>Google Developer Student Club</BioYear><Badge>2022</Badge>
+                            <BioYear>Google Developer Student Club</BioYear><Badge>2022 - 2023</Badge>
                             <br />
                             Engagement Director.
                             I am in charge of the community engagement and making sure the club stays active.
+                        </ListItem>
+                        <br />
+                        <ListItem>
+                            <BioYear>Odin Vision</BioYear><Badge>2022</Badge>
+                            <br />
+                            Software Engineer Intern.
+                            I was working on the company&apos;s main product called CADDIE by developing new features and fixing bugs.
                         </ListItem>
                     </List>
                 </Section>
@@ -179,6 +188,7 @@ const Page = () => {
                                 I discovered photography when I first joined Epita. I was astonished by the sheer amount of possibilities
                                 it can lead to. So I instantly joined the photography club and bought a camera with my first salary.
                                 I often shoot cosplay photos for my girlfriend, and actively participate in club activities.
+                                I am currently the president of my school&apos;s photography club: <Link href="https://www.club-ephemere.fr/" target="_blank">Ephemere</Link>.
                             </Paragraph>
                         </ListItem>
                         <br />
