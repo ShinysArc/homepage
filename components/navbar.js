@@ -77,6 +77,9 @@ const Navbar = props => {
                     <LinkItem href="/resume" path={path}>
                         Resume
                     </LinkItem>
+                    <LinkItem href="https://photo.stephanegelibert.com/" path={path}>
+                        Photo
+                    </LinkItem>
                     <LinkItem
                         target="_blank"
                         href="https://github.com/shinysarc/homepage"
@@ -111,6 +114,9 @@ const Navbar = props => {
                                 </NextLink>
                                 <NextLink href="/resume" passHref>
                                     <MenuItem as={Link}>Resume</MenuItem>
+                                </NextLink>
+                                <NextLink href="https://photo.stephanegelibert.com/" passHref>
+                                    <MenuItem as={Link}>Photo</MenuItem>
                                 </NextLink>
                                 <MenuItem as={Link} href="https://github.com/shinysarc/homepage">
                                     Source
