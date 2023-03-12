@@ -116,7 +116,7 @@ export const ResumeContent = () => (
                         <div className={styles["skills-header"]}>
                             <span className={styles["emphasize"]}>Databases</span>
                             <span className={styles["skills-list"]}>
-                                PostgreSQL
+                                PostgreSQL, MongoDB
                             </span>
                         </div>
                         <div className={styles["skills-header"]}>
