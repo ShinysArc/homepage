@@ -110,7 +110,7 @@ export const ResumeContent = () => (
                         <div className={styles["skills-header"]}>
                             <span className={styles["emphasize"]}>Tools</span>
                             <span className={styles["skills-list"]}>
-                                Git, Docker, Shell, GNU Make, VS Code, JetBrains IDEs, Microsoft Office, LaTeX
+                                VMWare ESXi, Ansible, PowerShell, MISP, Active Directory, PfSense, Git, Docker
                             </span>
                         </div>
                         <div className={styles["skills-header"]}>
@@ -146,6 +146,42 @@ export const ResumeContent = () => (
                         <div className={styles["projects-content"]}>
                             <div className={styles["projects-header"]}>
                                 <div className={styles["subtitle"]}>
+                                    <span className={styles["emphasize"]}>ARS</span>
+                                    <Image className={styles["projects-image"]} src="images/resume/esxi.png" alt="Esxi" />
+                                </div>
+                                <div className={styles["date"]}>
+                                    <IoCalendarOutline className={styles["icon-font"]} /> Feb. 2023 - Dec. 2023
+                                </div>
+                            </div>
+                            <div className={styles["text"]}>
+                                Creation of an infrastructure associated with an Active Directory, all virtualized on VMware ESXi.
+                                Configuration of applications, security tools (MISP, Graylog, SNORT, etc.) and networks.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className={styles["project"]}>
+                        <div className={styles["projects-content"]}>
+                            <div className={styles["projects-header"]}>
+                                <div className={styles["subtitle"]}>
+                                    <span className={styles["emphasize"]}>Forum International de la Cybersécurité</span>
+                                    <Image className={styles["projects-image"]} src="images/resume/fic.png" alt="Fic" />
+                                </div>
+                                <div className={styles["date"]}>
+                                    <IoCalendarOutline className={styles["icon-font"]} /> Mar. 2023 - Dec. 2023
+                                </div>
+                            </div>
+                            <div className={styles["text"]}>
+                                Creation of forensic challenges with different levels of difficulty (OSINT, Reverse,etc.).
+                                The challenges will be presented during the FIC (Forum International de la Cybersécurité).
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className={styles["project"]}>
+                        <div className={styles["projects-content"]}>
+                            <div className={styles["projects-header"]}>
+                                <div className={styles["subtitle"]}>
                                     <span className={styles["emphasize"]}>Tiger Compiler</span>
                                     <Image className={styles["projects-image"]} src="images/resume/Cplusplus.svg" alt="Cplusplus" />
                                 </div>
@@ -163,25 +199,6 @@ export const ResumeContent = () => (
                         <div className={styles["projects-content"]}>
                             <div className={styles["projects-header"]}>
                                 <div className={styles["subtitle"]}>
-                                    <span className={styles["emphasize"]}>JWS</span>
-                                    <Image className={styles["projects-image"]} src="images/resume/PostgreSQL.svg" alt="PostgreSQL" />
-                                    <Image className={styles["projects-image"]} src="images/resume/Java.svg" alt="Java" />
-                                </div>
-                                <div className={styles["date"]}>
-                                    <IoCalendarOutline className={styles["icon-font"]} /> Fev. 2022
-                                </div>
-                            </div>
-                            <div className={styles["text"]}>
-                                Implementation of a Rest API, working in conjunction with a
-                                PostgreSQL database.
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className={styles["project"]}>
-                        <div className={styles["projects-content"]}>
-                            <div className={styles["projects-header"]}>
-                                <div className={styles["subtitle"]}>
                                     <span className={styles["emphasize"]}>42sh</span>
                                     <Image className={styles["projects-image"]} src="images/resume/C.svg" alt="C" />
                                 </div>
@@ -191,40 +208,6 @@ export const ResumeContent = () => (
                             </div>
                             <div className={styles["text"]}>
                                 POSIX shell written within a group of 4 students.
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className={styles["project"]}>
-                        <div className={styles["projects-content"]}>
-                            <div className={styles["projects-header"]}>
-                                <div className={styles["subtitle"]}>
-                                    <span className={styles["emphasize"]}>OCR</span>
-                                    <Image className={styles["projects-image"]} src="images/resume/C.svg" alt="C" />
-                                </div>
-                                <div className={styles["date"]}>
-                                    <IoCalendarOutline className={styles["icon-font"]} /> Sept. 2020 - Nov. 2020
-                                </div>
-                            </div>
-                            <div className={styles["text"]}>
-                                A simple OCR, used GTK3 and SDL2 for the GUI.
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className={styles["project"]}>
-                        <div className={styles["projects-content"]}>
-                            <div className={styles["projects-header"]}>
-                                <div className={styles["subtitle"]}>
-                                    <span className={styles["emphasize"]}>Tales of Talris</span>
-                                    <img className={styles["projects-image"]} src="images/resume/Csharp.svg" alt="Csharp" />
-                                </div>
-                                <div className={styles["date"]}>
-                                    <IoCalendarOutline className={styles["icon-font"]} /> Feb. 2019 - May 2019
-                                </div>
-                            </div>
-                            <div className={styles["text"]}>
-                                A 3D multiplayer game done using Unity.
                             </div>
                         </div>
                     </div>
