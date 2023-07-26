@@ -56,9 +56,9 @@ const Page = () => {
                         <br />
                         When not online, I love hanging out with my camera.
                         <br />
-                        Interested by my profile? {' '}
+                        I'm currently looking for an end-of-studies internship, so {' '}
                         <Link href="/resume">
-                            Click here to see my resume
+                            click here to see my resume
                         </Link>
                         {' '} or {' '}
                         <Link href="mailto:contact@stephanegelibert.com">
@@ -82,6 +82,10 @@ const Page = () => {
                         <ListItem>
                             <BioYear>Programming languages</BioYear>
                             C, C++, Java, C#, Python, JavaScript, Rust, OCaml
+                        </ListItem>
+                        <ListItem>
+                            <BioYear>Tools</BioYear>
+                            VMWare ESXi, Active Directory, Ansible, PFSense, PowerShell
                         </ListItem>
                         <ListItem>
                             <BioYear>Languages</BioYear>
