@@ -81,7 +81,7 @@ const Page = () => {
                     <List>
                         <ListItem>
                             <BioYear>Programming languages</BioYear>
-                            C, C++, Java, C#, Python, JavaScript, Rust, OCaml
+                            C, C++, Java, C#, Python, JavaScript, OCaml
                         </ListItem>
                         <ListItem>
                             <BioYear>Tools</BioYear>
