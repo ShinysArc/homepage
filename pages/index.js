@@ -56,7 +56,7 @@ const Page = () => {
                         <br />
                         When not online, I love hanging out with my camera.
                         <br />
-                        I'm currently looking for an end-of-studies internship, so {' '}
+                        I&apos;m currently looking for an end-of-studies internship, so {' '}
                         <Link href="/resume">
                             click here to see my resume
                         </Link>

@@ -13,7 +13,7 @@ export const ResumeContent = () => (
             >
                 <span className={styles["description-emphasize"]}>Computer engineering student</span>, specializing in <span className={styles["description-emphasize"]}>cybersecurity</span>
                 <br />
-                I'm currently looking for an <span className={styles["description-emphasize"]}>end-of-studies internship for february 2024</span>
+                I&apos;m currently looking for an <span className={styles["description-emphasize"]}>end-of-studies internship for february 2024</span>
             </Box>
 
             <div className={styles["contact"]}>
