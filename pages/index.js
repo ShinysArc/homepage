@@ -85,7 +85,7 @@ const Page = () => {
                         </ListItem>
                         <ListItem>
                             <BioYear>Tools</BioYear>
-                            VMWare ESXi, Active Directory, Ansible, PFSense, PowerShell
+                            VMWare ESXi, Active Directory, Ansible, PFSense, PowerShell, MISP, Graylog
                         </ListItem>
                         <ListItem>
                             <BioYear>Languages</BioYear>
