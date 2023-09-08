@@ -107,7 +107,7 @@ export const ResumeContent = () => (
                         </div>
                         <div className={styles["text"]}>
                             <ul>
-                                <li>President of the school's photography association.
+                                <li>President of the school&apos;s photography association.
                                 Strong management skills are crucial for effectively leading the association and its members.
                                 </li>
                             </ul>
@@ -130,7 +130,7 @@ export const ResumeContent = () => (
                         <div className={styles["text"]}>
                             <ul>
                                 <li>
-                                    Played a vital role in organizing and running the club's activities and events.
+                                    Played a vital role in organizing and running the club&apos;s activities and events.
                                     GDSCs are community-driven groups that are officially recognized by Google to help students interested in
                                     technology and development enhance their skills, collaborate on projects, and connect with industry professionals
                                 </li>
