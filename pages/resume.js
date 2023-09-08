@@ -13,7 +13,7 @@ export const ResumeContent = () => (
             >
                 <span className={styles["description-emphasize"]}>Computer engineering student</span>, specializing in <span className={styles["description-emphasize"]}>cybersecurity</span>
                 <br />
-                I&apos;m currently looking for an <span className={styles["description-emphasize"]}>end-of-studies internship for february 2024</span>
+                Currently looking for an <span className={styles["description-emphasize"]}>end-of-studies internship for february 2024</span>
             </Box>
 
             <div className={styles["contact"]}>
@@ -51,7 +51,7 @@ export const ResumeContent = () => (
                                 <IoLocationOutline className={styles["icon-font"]} /> Paris, France
                             </div>
                             <div className={styles["date"]}>
-                                <IoCalendarOutline className={styles["icon-font"]} /> Sep. 2018 - Sep. 2024
+                                <IoCalendarOutline className={styles["icon-font"]} /> Sep. 2018 - Aug. 2024
                             </div>
                         </div>
 
@@ -86,12 +86,56 @@ export const ResumeContent = () => (
                         </div>
                         <div className={styles["text"]}>
                             <ul>
-                                <li>Worked on the company&apos;s main product called CADDIE by developing new features and fixing bugs.</li>
+                                <li>Worked on the company&apos;s main product called CADDIE by developing new features and fixing bugs.
+                                Implemented a feature that improved the speed of predictions by 9 times.</li>
                             </ul>
                         </div>
                     </div>
-                    <div className={styles["experience-image"]}>
-                        <Image src="images/resume/odin_logo.png" alt="icon-ov" />
+                    <div className={styles["experience-content"]}>
+                        <div className={styles["experience-header"]}>
+                            <div className={styles["subtitle"]}>
+                                <span className={styles["emphasize"]}>President</span> of <Link target="_blank" rel="nofollow noopener noreferrer" href="https://ephemere.photo">Ephemere</Link>
+                            </div>
+                            <div className={styles["experience-icons"]}>
+                                <div className={styles["location"]}>
+                                    <IoLocationOutline className={styles["icon-font"]} /> Le Kremlin-Bicêtre, FR
+                                </div>
+                                <div className={styles["date"]}>
+                                    <IoCalendarOutline className={styles["icon-font"]} /> Mar. 2023 - Feb. 2024
+                                </div>
+                            </div>
+                        </div>
+                        <div className={styles["text"]}>
+                            <ul>
+                                <li>President of the school's photography association.
+                                Strong management skills are crucial for effectively leading the association and its members.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div className={styles["experience-content"]}>
+                        <div className={styles["experience-header"]}>
+                            <div className={styles["subtitle"]}>
+                                <span className={styles["emphasize"]}>Core team member</span> at <Link target="_blank" rel="nofollow noopener noreferrer" href="https://https://gdsc.community.dev/epita/">GDSC EPITA</Link>
+                            </div>
+                            <div className={styles["experience-icons"]}>
+                                <div className={styles["location"]}>
+                                    <IoLocationOutline className={styles["icon-font"]} /> Le Kremlin-Bicêtre, FR
+                                </div>
+                                <div className={styles["date"]}>
+                                    <IoCalendarOutline className={styles["icon-font"]} /> Sept. 2022 - Aug. 2023
+                                </div>
+                            </div>
+                        </div>
+                        <div className={styles["text"]}>
+                            <ul>
+                                <li>
+                                    Played a vital role in organizing and running the club's activities and events.
+                                    GDSCs are community-driven groups that are officially recognized by Google to help students interested in
+                                    technology and development enhance their skills, collaborate on projects, and connect with industry professionals
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -175,7 +219,7 @@ export const ResumeContent = () => (
                             </div>
                             <div className={styles["text"]}>
                                 Creation of forensic challenges with different levels of difficulty (OSINT, Reverse,etc.).
-                                The challenges will be presented during the FIC (Forum International de la Cybersécurité).
+                                The challenges will be presented for the ECC (European Cyber Cup) during the FIC (Forum International de la Cybersécurité).
                             </div>
                         </div>
                     </div>
