@@ -27,7 +27,7 @@
 .page {
     position: relative;
 
-    width: 210mm;
+    width: 180mm;
     height: 297mm;
 }
 
@@ -128,7 +128,7 @@
 
 .education .text {
     margin-top: 2px;
-    margin-left: 12px;
+    margin-left: 1px;
 
     font-size: 13px;
     font-weight: 600;
@@ -146,7 +146,7 @@
 
 .experience .text {
     margin-top: 2px;
-    margin-left: 12px;
+    margin-left: 1px;
 
     font-size: 13px;
 }
@@ -200,7 +200,7 @@
 }
 
 .projects .date {
-    font-size: 14px;
+    font-size: 12px;
     right: 6%;
     position: absolute;
 }
