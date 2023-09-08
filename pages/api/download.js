@@ -53,11 +53,15 @@ const download = async (req, res) => {
 
   await page.evaluate(() => {
     const articleElement = document.querySelector('article');
-    console.log(articleElement);
 
     if (articleElement) {
       articleElement.style.marginTop = '-65px';
       articleElement.style.marginLeft = '-25px';
+
+      const buttonElement = articleElement.querySelector('button');
+      if (buttonElement) {
+        buttonElement.style.display = 'none';
+      }
     }
   });
 
