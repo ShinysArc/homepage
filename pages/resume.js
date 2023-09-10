@@ -218,7 +218,7 @@ export const ResumeContent = () => (
                                 </div>
                             </div>
                             <div className={styles["text"]}>
-                                Creation of forensic challenges with different levels of difficulty (OSINT, Reverse,etc.).
+                                Creation of forensic challenges with different levels of difficulty (OSINT, Reverse, etc.).
                                 The challenges will be presented for the ECC (European Cyber Cup) during the FIC (Forum International de la Cybersécurité).
                             </div>
                         </div>
@@ -232,7 +232,7 @@ export const ResumeContent = () => (
                                     <Image className={styles["projects-image"]} src="images/resume/Cplusplus.svg" alt="Cplusplus" />
                                 </div>
                                 <div className={styles["date"]}>
-                                    <IoCalendarOutline className={styles["icon-font"]} /> Mar. 2022 - Apr. 2023
+                                    <IoCalendarOutline className={styles["icon-font"]} /> Mar. 2022 - Apr. 2022
                                 </div>
                             </div>
                             <div className={styles["text"]}>
