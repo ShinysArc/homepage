@@ -130,15 +130,23 @@ const Page = () => {
 
                 <Section delay={0.3}>
                     <Heading as="h3" variant="section-title">
-                        Hackathons
+                        Extrascholar activities
                     </Heading>
                     <List>
                         <ListItem>
-                            <BioYear>Meta Global Hackathon</BioYear>
+                            <BioYear><Badge>CTF</Badge> 404CTF #2</BioYear>
+                            Finished 43rd among over 3000 participants.
+                        </ListItem>
+                        <ListItem>
+                            <BioYear><Badge>Hackathon</Badge> WaveGame</BioYear>
+                            Hackathon organized by WaveStone, focused on pentesting and cloud.
+                        </ListItem>
+                        <ListItem>
+                            <BioYear><Badge>Hackathon</Badge> Meta Global Hackathon</BioYear>
                             Finished 13th in the EMEA region.
                         </ListItem>
                         <ListItem>
-                            <BioYear>GottaGoHack #3</BioYear>
+                            <BioYear><Badge>Hackathon</Badge> GottaGoHack #3</BioYear>
                             Built a CRM for hospitals in a team of 4. The project is available at {' '}
                             <Link href="https://www.stephanegelibert.com/projects/asclepios">
                                 this link
