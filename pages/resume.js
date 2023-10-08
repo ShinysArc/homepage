@@ -86,8 +86,10 @@ export const ResumeContent = () => (
                         </div>
                         <div className={styles["text"]}>
                             <ul>
-                                <li>Worked on the company&apos;s main product called CADDIE by developing new features and fixing bugs.
-                                Implemented a feature that improved the speed of predictions by 9 times.</li>
+                                <li>
+                                    Worked on the company&apos;s main product called CADDIE by developing new features and fixing bugs.
+                                    Implemented a feature that improved the speed of tumor predictions by 9 times.
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -107,8 +109,10 @@ export const ResumeContent = () => (
                         </div>
                         <div className={styles["text"]}>
                             <ul>
-                                <li>President of the school&apos;s photography association.
-                                Strong management skills are crucial for effectively leading the association and its members.
+                                <li>
+                                    President of the school&apos;s photography association.
+                                    Strong management skills are crucial for effectively leading the association and its members.
+                                    The association&apos;s goal is to promote photography and cover events for the school&apos;s students.
                                 </li>
                             </ul>
                         </div>
@@ -218,7 +222,7 @@ export const ResumeContent = () => (
                                 </div>
                             </div>
                             <div className={styles["text"]}>
-                                Creation of forensic challenges with different levels of difficulty (OSINT, Reverse, etc.).
+                                Creation of forensics challenges with different levels of difficulty (OSINT, Reverse, etc.).
                                 The challenges will be presented for the ECC (European Cyber Cup) during the FIC (Forum International de la Cybersécurité).
                             </div>
                         </div>
@@ -265,7 +269,7 @@ export const ResumeContent = () => (
             </div>
 
             <div className={styles["footer"]}>
-            An up-to-date version of this resume is available <Link target="_blank" href="https://stephanegelibert.com/resume">here</Link>.
+                An up-to-date version of this resume is available <Link target="_blank" href="https://stephanegelibert.com/resume">here</Link>.
             </div>
         </Page>
     </div>

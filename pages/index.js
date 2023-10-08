@@ -200,7 +200,7 @@ const Page = () => {
                                 I discovered photography when I first joined Epita. I was astonished by the sheer amount of possibilities
                                 it can lead to. So I instantly joined the photography club and bought a camera with my first salary.
                                 I often shoot cosplay photos for my girlfriend, and actively participate in club activities.
-                                I am currently the president of my school&apos;s photography club: <Link href="https://www.club-ephemere.fr/" target="_blank">Ephemere</Link>.
+                                I am currently the president of my school&apos;s photography club: <Link href="https://ephemere.photo/" target="_blank">Ephemere</Link>.
                             </Paragraph>
                         </ListItem>
                         <br />
