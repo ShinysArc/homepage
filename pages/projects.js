@@ -8,6 +8,7 @@ import thumbTiger from '../public/images/projects/tiger_preview.png'
 import thumbOCR from '../public/images/projects/ocr_preview.png'
 import thumbPING from '../public/images/projects/ping_preview.png'
 import thumbAsclepios from '../public/images/projects/asclepios_preview.png'
+import thumbFIC from '../public/images/projects/fic_preview.png'
 import Layout from '../components/layouts/article'
 
 const Projects = () => {
@@ -19,6 +20,11 @@ const Projects = () => {
                 </Heading>
 
                 <SimpleGrid columns={[1, 1, 2]} gap={6}>
+                    <Section>
+                        <WorkGridItem id="fic" title="FIC" thumbnail={thumbFIC}>
+                            Forensics challenges for the European Cyber Cup.
+                        </WorkGridItem>
+                    </Section>
                     <Section>
                         <WorkGridItem id="asclepios" title="Asclepios" thumbnail={thumbAsclepios}>
                             A web application that allows hospitals to manage medical records.
