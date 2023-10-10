@@ -25,6 +25,8 @@ COPY . .
 # Build the Next.js application for production
 RUN npm run build
 
+RUN ls /app/.next
+
 FROM base AS runner
 WORKDIR /app
 
