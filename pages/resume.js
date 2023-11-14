@@ -276,9 +276,11 @@ export const ResumeContent = () => (
 )
 
 const DownloadButton = () => {
+    const theme = useColorModeValue('light', 'dark')
+    const downloadUrl = `/api/download?theme=${theme}`
     return (
         <Box align="center" my={4}>
-            <a href={useColorModeValue("/api/download", "/api/download-dark")} rel="noreferrer" target="_blank">
+            <a href={downloadUrl} rel="noreferrer" target="_blank">
                 <Button colorScheme="teal">
                     Download PDF
                 </Button>

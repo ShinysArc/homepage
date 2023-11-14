@@ -44,6 +44,10 @@ const download = async (req, res) => {
 
   const page = await browser.newPage()
   await page.goto(`https://stephanegelibert.com/resume`, { waitUntil: 'networkidle2' })
+  const { theme } = req.query;
+  await page.emulateMediaFeatures([{
+    name: 'prefers-color-scheme', value: theme
+  }]);
   await page.evaluate(() => {
     const navElement = document.querySelector('nav');
     if (navElement) {
