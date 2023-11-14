@@ -27,9 +27,9 @@ const Project = () => {
                         Gotta Go Hack
                     </Link>.
                     <br />
-                    Track your pet's activities and achieve wellness goals.
-                    View your pet's health statistics.
-                    Receive notifications to join your dog's friends when they go out for a walk.
+                    Track your pet&apos;s activities and achieve wellness goals.
+                    View your pet&apos;s health statistics.
+                    Receive notifications to join your dog&apos;s friends when they go out for a walk.
                     The frontend was written in React and the backend in NodeJS.
                 </P>
                 <List ml={4} my={4}>
