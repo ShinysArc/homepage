@@ -21,6 +21,11 @@ const Projects = () => {
 
                 <SimpleGrid columns={[1, 1, 2]} gap={6}>
                     <Section>
+                        <WorkGridItem id="vitalitypaw" title="Vitality Paw" thumbnail={thumbAsclepios}>
+                            An application that helps improve your animal care.
+                        </WorkGridItem>
+                    </Section>
+                    <Section>
                         <WorkGridItem id="fic" title="FIC" thumbnail={thumbFIC}>
                             Forensics challenges for the European Cyber Cup.
                         </WorkGridItem>

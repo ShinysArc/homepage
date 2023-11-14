@@ -134,6 +134,14 @@ const Page = () => {
                     </Heading>
                     <List>
                         <ListItem>
+                            <BioYear><Badge>Hackathon</Badge> GottaGoHack #4</BioYear>
+                            Got the second prize with my team of 4.
+                            Developped an application that helps improve your animal care, the proof of concept is available at {' '}
+                            <Link href="/projects/vitalitypaw">
+                                this link
+                            </Link>.
+                        </ListItem>
+                        <ListItem>
                             <BioYear><Badge>CTF</Badge> 404CTF #2</BioYear>
                             Finished 43rd among over 3000 participants.
                         </ListItem>
@@ -148,7 +156,7 @@ const Page = () => {
                         <ListItem>
                             <BioYear><Badge>Hackathon</Badge> GottaGoHack #3</BioYear>
                             Built a CRM for hospitals in a team of 4. The project is available at {' '}
-                            <Link href="https://www.stephanegelibert.com/projects/asclepios">
+                            <Link href="/projects/asclepios">
                                 this link
                             </Link>.
                         </ListItem>
