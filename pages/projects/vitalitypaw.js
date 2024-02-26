@@ -16,7 +16,7 @@ const Project = () => {
                     <Link href='https://github.com/bunbun721' target="_blank">
                         Georgia Bjärstål
                     </Link>, {' '}
-                    <Link href='https://github.com/yamidea' target="_blank">
+                    <Link href='https://github.com/ebjarstal' target="_blank">
                         Eric Bjärstål
                     </Link>, {' '}
                     <Link href='https://github.com/rrajaonarisoa' target="_blank">
