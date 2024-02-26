@@ -9,6 +9,7 @@ import thumbOCR from '../public/images/projects/ocr_preview.png'
 import thumbPING from '../public/images/projects/ping_preview.png'
 import thumbAsclepios from '../public/images/projects/asclepios_preview.png'
 import thumbFIC from '../public/images/projects/fic_preview.png'
+import thumbVitalityPaw from '../public/images/projects/vitalitypaw_preview.png'
 import Layout from '../components/layouts/article'
 
 const Projects = () => {
@@ -21,7 +22,7 @@ const Projects = () => {
 
                 <SimpleGrid columns={[1, 1, 2]} gap={6}>
                     <Section>
-                        <WorkGridItem id="vitalitypaw" title="Vitality Paw" thumbnail={thumbAsclepios}>
+                        <WorkGridItem id="vitalitypaw" title="Vitality Paw" thumbnail={thumbVitalityPaw}>
                             An application that helps improve your animal care.
                         </WorkGridItem>
                     </Section>
