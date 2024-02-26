@@ -56,7 +56,11 @@ const Page = () => {
                         <br />
                         When not online, I love hanging out with my camera.
                         <br />
-                        I&apos;m currently looking for an end-of-studies internship, so {' '}
+                        I&apos;m currently working at {' '}
+                        <Link href="https://www.criteo.com">
+                            Criteo
+                        </Link> as an SRE intern.
+                        If my profile peeks your interest, you can {' '}
                         <Link href="/resume">
                             click here to see my resume
                         </Link>
@@ -104,6 +108,14 @@ const Page = () => {
                     </Heading>
                     <List>
                         <ListItem>
+                            <BioYear>Criteo</BioYear><Badge>2024 -</Badge>
+                            <br />
+                            Software Engineer Development Intern.
+                            I joined the Relational Database Service team, which is a team of SREs.
+                            I am integrating PostgreSQL into the company&apos;s infrastructure using Kubernetes.
+                        </ListItem>
+                        <br />
+                        <ListItem>
                             <BioYear>Ephemere</BioYear><Badge>2023 - 2024</Badge>
                             <br />
                             President.
@@ -116,7 +128,7 @@ const Page = () => {
                             <BioYear>Google Developer Student Club</BioYear><Badge>2022 - 2023</Badge>
                             <br />
                             Engagement Director.
-                            I am in charge of the community engagement and making sure the club stays active.
+                            I was in charge of the community engagement and making sure the club stays active.
                         </ListItem>
                         <br />
                         <ListItem>
@@ -170,6 +182,10 @@ const Page = () => {
                     <BioSection>
                         <BioYear>2018 to present</BioYear>
                         Student at Epita engineering school.
+                    </BioSection>
+                    <BioSection>
+                        <BioYear>2024</BioYear>
+                        Working at Criteo as an intern.
                     </BioSection>
                     <BioSection>
                         <BioYear>2022</BioYear>

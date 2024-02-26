@@ -12,8 +12,6 @@ export const ResumeContent = () => (
                 color={useColorModeValue('teal', 'glassTeal')}
             >
                 <span className={styles["description-emphasize"]}>Computer engineering student</span>, specializing in <span className={styles["description-emphasize"]}>cybersecurity</span>
-                <br />
-                Currently looking for an <span className={styles["description-emphasize"]}>end-of-studies internship starting in february 2024</span>
             </Box>
 
             <div className={styles["contact"]}>
@@ -73,6 +71,28 @@ export const ResumeContent = () => (
                     <div className={styles["experience-content"]}>
                         <div className={styles["experience-header"]}>
                             <div className={styles["subtitle"]}>
+                                <span className={styles["emphasize"]}>Site Reliability Engineer Intern</span> at <Link target="_blank" rel="nofollow noopener noreferrer" href="https://www.criteo.com">Criteo</Link>
+                            </div>
+                            <div className={styles["experience-icons"]}>
+                                <div className={styles["location"]}>
+                                    <IoLocationOutline className={styles["icon-font"]} /> Paris, FR
+                                </div>
+                                <div className={styles["date"]}>
+                                    <IoCalendarOutline className={styles["icon-font"]} /> Feb. 2024 - Aug. 2024
+                                </div>
+                            </div>
+                        </div>
+                        <div className={styles["text"]}>
+                            <ul>
+                                <li>
+                                    Tasked with the integration of a new PostgreSQL database into our company's infrastructure leveraging Kubernetes orchestration
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div className={styles["experience-content"]}>
+                        <div className={styles["experience-header"]}>
+                            <div className={styles["subtitle"]}>
                                 <span className={styles["emphasize"]}>Software Engineer Intern</span> at <Link target="_blank" rel="nofollow noopener noreferrer" href="https://odin-vision.com">Odin Vision</Link>
                             </div>
                             <div className={styles["experience-icons"]}>
@@ -120,7 +140,7 @@ export const ResumeContent = () => (
                     <div className={styles["experience-content"]}>
                         <div className={styles["experience-header"]}>
                             <div className={styles["subtitle"]}>
-                                <span className={styles["emphasize"]}>Core team member</span> at <Link target="_blank" rel="nofollow noopener noreferrer" href="https://https://gdsc.community.dev/epita/">GDSC EPITA</Link>
+                                <span className={styles["emphasize"]}>Core Team Member</span> at <Link target="_blank" rel="nofollow noopener noreferrer" href="https://https://gdsc.community.dev/epita/">GDSC EPITA</Link>
                             </div>
                             <div className={styles["experience-icons"]}>
                                 <div className={styles["location"]}>
@@ -160,7 +180,7 @@ export const ResumeContent = () => (
                         <div className={styles["skills-header"]}>
                             <span className={styles["emphasize"]}>Tools</span>
                             <span className={styles["skills-list"]}>
-                                VMWare ESXi, Ansible, PowerShell, MISP, Active Directory, PfSense, Git, Docker
+                                VMWare ESXi, Ansible, PowerShell, MISP, Active Directory, PfSense, Git, Docker, Kubernetes
                             </span>
                         </div>
                         <div className={styles["skills-header"]}>
