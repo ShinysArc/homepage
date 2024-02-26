@@ -85,7 +85,7 @@ export const ResumeContent = () => (
                         <div className={styles["text"]}>
                             <ul>
                                 <li>
-                                    Tasked with the integration of a new PostgreSQL database into our company's infrastructure leveraging Kubernetes orchestration
+                                    Tasked with the integration of a new PostgreSQL database into our company&apos;s infrastructure leveraging Kubernetes orchestration
                                 </li>
                             </ul>
                         </div>
