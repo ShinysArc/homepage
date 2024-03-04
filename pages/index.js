@@ -60,7 +60,7 @@ const Page = () => {
                         <Link href="https://www.criteo.com">
                             Criteo
                         </Link> as an SRE intern.
-                        If my profile peeks your interest, you can {' '}
+                        If my profile piques your interest, you can {' '}
                         <Link href="/resume">
                             click here to see my resume
                         </Link>
