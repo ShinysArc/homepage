@@ -16,7 +16,9 @@ import {
 } from '@chakra-ui/react'
 import { HamburgerIcon } from '@chakra-ui/icons'
 import ThemeToggleButton from './theme-toggle-button'
+import LanguageToggleButton from './language-toggle-button'
 import { IoLogoGithub } from 'react-icons/io5'
+import { useTranslation } from 'next-i18next';
 
 const LinkItem = ({ href, path, target, children, ...props }) => {
     const active = path === href
@@ -38,6 +40,7 @@ const LinkItem = ({ href, path, target, children, ...props }) => {
 
 const Navbar = props => {
     const { path } = props
+    const { t } = useTranslation('common');
 
     return (
         <Box
@@ -72,10 +75,10 @@ const Navbar = props => {
                     mt={{ base: 4, nmd: 0 }}
                 >
                     <LinkItem href="/projects" path={path}>
-                        Projects
+                        {t('navbar.projects')}
                     </LinkItem>
                     <LinkItem href="/resume" path={path}>
-                        Resume
+                        {t('navbar.resume')}
                     </LinkItem>
                     <LinkItem href="https://photo.stephanegelibert.com/" path={path}>
                         Photo
@@ -95,6 +98,7 @@ const Navbar = props => {
                 </Stack>
 
                 <Box flex={1} align="right">
+                    <LanguageToggleButton />
                     <ThemeToggleButton />
 
                     <Box ml={2} display={{ base: 'inline-block', md: 'none' }}>

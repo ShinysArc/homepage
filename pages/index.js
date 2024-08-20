@@ -6,8 +6,11 @@ import Section from '../components/section'
 import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import { IoLogoGithub, IoLogoLinkedin, IoLogoInstagram, IoMail } from 'react-icons/io5'
+import { useTranslation } from 'next-i18next';
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 
 const Page = () => {
+    const { t } = useTranslation('common');
     return (
         <Layout>
             <Container>
@@ -17,15 +20,14 @@ const Page = () => {
                     mb={6}
                     align="center"
                 >
-                    Hi, I&apos;m a computer engineering student based in Paris, France.
+                    {t('index.greetings')}
                 </Box>
-
                 <Box display={{ md: 'flex' }}>
                     <Box flexGrow={1}>
                         <Heading as="h2" variant="page-title">
-                            Stephane Gelibert
+                            St&eacute;phane Gelibert
                         </Heading>
-                        <p>Developer, engineer, photographer </p>
+                        <p>{t('index.dev_eng_pho')}</p>
                     </Box>
                     <Box
                         flexShrink={0}
@@ -47,32 +49,30 @@ const Page = () => {
 
                 <Section delay={0.1}>
                     <Heading as="h3" variant="section-title">
-                        About
+                    {t('index.about.title')}
                     </Heading>
                     <Paragraph>
-                        I am Stephane Gelibert, a computer engineering student at EPITA, based in Paris, France.
-                        I have a knack for all things related to IT, programming, and development.
-                        I am currently specializing in cybersecurity.
+                        {t('index.about.text_1')}
                         <br />
-                        When not online, I love hanging out with my camera.
+                        {t('index.about.text_2')}
                         <br />
-                        I&apos;m currently working at {' '}
+                        {t('index.about.text_3')} {' '}
                         <Link href="https://www.criteo.com">
                             Criteo
-                        </Link> as an SRE intern.
-                        If my profile piques your interest, you can {' '}
+                        </Link> {t('index.about.text_4')} {' '}
+                        {t('index.about.text_5')} {' '}
                         <Link href="/resume">
-                            click here to see my resume
+                            {t('index.about.text_6')}
                         </Link>
-                        {' '} or {' '}
+                        {' '} {t('index.about.text_7')} {' '}
                         <Link href="mailto:contact@stephanegelibert.com">
-                            contact me!
+                            {t('index.about.text_8')}
                         </Link>
                     </Paragraph>
                     <Box align="center" my={4}>
                         <NextLink href="/projects">
                             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-                                My portfolio
+                                {t('index.about.portfolio')}
                             </Button>
                         </NextLink>
                     </Box>
@@ -80,96 +80,88 @@ const Page = () => {
 
                 <Section delay={0.3}>
                     <Heading as="h3" variant="section-title">
-                        Skills
+                        {t('index.skills.title')}
                     </Heading>
                     <List>
                         <ListItem>
-                            <BioYear>Programming languages</BioYear>
+                            <BioYear>{t('index.skills.programming_languages')}</BioYear>
                             C, C++, Java, C#, Python, JavaScript, OCaml
                         </ListItem>
                         <ListItem>
-                            <BioYear>Tools</BioYear>
+                            <BioYear>{t('index.skills.tools')}</BioYear>
                             Kubernetes, Docker, VMWare ESXi, Active Directory, Ansible, PFSense, PowerShell, MISP, Graylog
                         </ListItem>
                         <ListItem>
-                            <BioYear>Languages</BioYear>
-                            French, Chinese Mandarin, English (TOEIC 965)
+                            <BioYear>{t('index.skills.languages.title')}</BioYear>
+                            {t('index.skills.languages.content')}
                         </ListItem>
                         <ListItem>
-                            <BioYear>Certificates</BioYear>
-                            Driving license
+                            <BioYear>Certifications</BioYear>
+                            {t('index.skills.driving_license')}
                         </ListItem>
                     </List>
                 </Section>
 
                 <Section delay={0.3}>
                     <Heading as="h3" variant="section-title">
-                        Professional experience
+                        {t('index.experience.title')}
                     </Heading>
                     <List>
                         <ListItem>
-                            <BioYear>Criteo</BioYear><Badge>2024 -</Badge>
+                            <BioYear>Criteo</BioYear><Badge>2024</Badge>
                             <br />
-                            Software Engineer Development Intern.
-                            I joined the Relational Database Service team, which is a team of SREs.
-                            I am integrating PostgreSQL into the company&apos;s infrastructure using Kubernetes.
+                            {t('index.experience.criteo')}
                         </ListItem>
                         <br />
                         <ListItem>
                             <BioYear>Ephemere</BioYear><Badge>2023 - 2024</Badge>
                             <br />
-                            President.
-                            I am in charge of all the events of the club, along with the other board members who help me.
-                            The events include prestations for the other clubs (covers, stands), as well as the integration weekends (WEI) and
-                            events for the members of the club.
+                            {t('index.experience.ephemere')}
                         </ListItem>
                         <br />
                         <ListItem>
                             <BioYear>Google Developer Student Club</BioYear><Badge>2022 - 2023</Badge>
                             <br />
-                            Engagement Director.
-                            I was in charge of the community engagement and making sure the club stays active.
+                            {t('index.experience.gdsc')}
                         </ListItem>
                         <br />
                         <ListItem>
                             <BioYear>Odin Vision</BioYear><Badge>2022</Badge>
                             <br />
-                            Software Engineer Intern.
-                            I was working on the company&apos;s main product called CADDIE by developing new features and fixing bugs.
+                            {t('index.experience.odin_vision')}
                         </ListItem>
                     </List>
                 </Section>
 
                 <Section delay={0.3}>
                     <Heading as="h3" variant="section-title">
-                        Extrascholar activities
+                        {t('index.side.title')}
                     </Heading>
                     <List>
                         <ListItem>
                             <BioYear><Badge>Hackathon</Badge> GottaGoHack #4</BioYear>
-                            Got the second prize with my team of 4.
-                            Developped an application that helps improve your animal care, the proof of concept is available at {' '}
-                            <Link href="/projects/vitalitypaw">
-                                this link
+                            {t('index.side.ggh4')}
+                            <Link href={t.language + "/projects/vitalitypaw"}>
+                                {t('index.side.this_link')}
                             </Link>.
                         </ListItem>
                         <ListItem>
                             <BioYear><Badge>CTF</Badge> 404CTF #2</BioYear>
-                            Finished 43rd among over 3000 participants.
+                            {t('index.side.404ctf')}
                         </ListItem>
                         <ListItem>
                             <BioYear><Badge>Hackathon</Badge> WaveGame</BioYear>
-                            Hackathon organized by WaveStone, focused on pentesting and cloud.
+                            {t('index.side.wave_game')}
                         </ListItem>
                         <ListItem>
                             <BioYear><Badge>Hackathon</Badge> Meta Global Hackathon</BioYear>
-                            Finished 13th in the EMEA region.
+                            {t('index.side.meta')}
                         </ListItem>
                         <ListItem>
                             <BioYear><Badge>Hackathon</Badge> GottaGoHack #3</BioYear>
-                            Built a CRM for hospitals in a team of 4. The project is available at {' '}
+                            {t('index.side.ggh3')}
                             <Link href="/projects/asclepios">
-                                this link
+                                {t('index.side.this_link')}
                             </Link>.
                         </ListItem>
                     </List>
@@ -180,37 +172,36 @@ const Page = () => {
                         Bio
                     </Heading>
                     <BioSection>
-                        <BioYear>2018 to present</BioYear>
-                        Student at Epita engineering school.
+                        <BioYear>2018 - 2024</BioYear>
+                        {t('index.bio.epita')}
                     </BioSection>
                     <BioSection>
                         <BioYear>2024</BioYear>
-                        Working at Criteo as an intern.
+                        {t('index.bio.criteo')}
                     </BioSection>
                     <BioSection>
                         <BioYear>2022</BioYear>
-                        Worked at Odin Vision as an intern.
+                        {t('index.bio.odin')}
                     </BioSection>
                     <BioSection>
                         <BioYear>2018</BioYear>
-                        Obtained the scientific baccalaureate, with honors.
+                        {t('index.bio.bac')}
                     </BioSection>
                     <BioSection>
                         <BioYear>2000</BioYear>
-                        Born in Paris, France.
+                        {t('index.bio.born')}
                     </BioSection>
                 </Section>
 
                 <Section>
                     <Heading as="h3" variant="section-title">
-                        I ♥
+                        {t('index.love.title')}♥
                     </Heading>
                     <List>
                         <ListItem>
                             <Paragraph>
                                 <BioYear>Taekwondo</BioYear>
-                                I have been practicing Taekwondo for a few years and I have to say I fell in love with it.
-                                I always enjoy a fun kicking session. I am currently training the ITF style.
+                                {t('index.love.taekwondo')}
                             </Paragraph>
                         </ListItem>
                         <br />
@@ -218,21 +209,17 @@ const Page = () => {
                             <Paragraph>
                                 <BioYear>
                                     <Link href="https://www.instagram.com/shinysarc" target="_blank">
-                                        Photography
+                                        {t('index.love.photography_title')}
                                     </Link>
                                 </BioYear>
-                                I discovered photography when I first joined Epita. I was astonished by the sheer amount of possibilities
-                                it can lead to. So I instantly joined the photography club and bought a camera with my first salary.
-                                I often shoot cosplay photos for my girlfriend, and actively participate in club activities.
-                                I am currently the president of my school&apos;s photography club: <Link href="https://ephemere.photo/" target="_blank">Ephemere</Link>.
+                                {t('index.love.photography')}<Link href="https://ephemere.photo/" target="_blank">Ephemere</Link>.
                             </Paragraph>
                         </ListItem>
                         <br />
                         <ListItem>
                             <Paragraph>
-                                <BioYear>Music</BioYear>
-                                I listen to pretty much everything. My range can go from K-Pop to good old Power Metal. A big shoutout to DragonForce and Dreamcatcher, these are probably my favorite groups ever.
-                                But yeah, as long as it&apos;s good, I can vibe to it.
+                                <BioYear>{t('index.love.music_title')}</BioYear>
+                                {t('index.love.music')}
                             </Paragraph>
                         </ListItem>
                     </List>
@@ -240,11 +227,11 @@ const Page = () => {
 
                 <Section delay={0.3}>
                     <Heading as="h3" variant="section-title">
-                        Contact me
+                        {t('index.contact')}
                     </Heading>
                     <List>
                         <ListItem>
-                            <Link href="https://fr.linkedin.com/in/stephane-gelibert" target="_blank">
+                            <Link href="https://linkedin.com/in/stephane-gelibert" target="_blank">
                                 <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoLinkedin} />}>
                                     @stephane-gelibert
                                 </Button>
@@ -276,6 +263,16 @@ const Page = () => {
             </Container>
         </Layout>
     )
+}
+
+export async function getStaticProps({ locale }) {
+    return {
+        props: {
+        ...(await serverSideTranslations(locale, [
+            'common'
+        ])),
+        },
+    }
 }
 
 export default Page

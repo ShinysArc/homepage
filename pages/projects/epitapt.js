@@ -3,8 +3,11 @@ import { Title, Meta } from '../../components/project'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 import { ProjectImage } from '../../components/project'
+import { useTranslation } from 'next-i18next';
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 
 const Project = () => {
+    const { t } = useTranslation('common');
     return (
         <Layout title="EpitAPT">
             <Container>
@@ -15,8 +18,7 @@ const Project = () => {
                 <ProjectImage src="/images/projects/epitapt_dashboard.png" alt="dashboard" />
 
                 <P>
-                    A sophisticated, modular cross-platform malware ecosystem leveraging C++ for client-side operations and Django for centralized command and control.
-                    Includes a modular, multi-threaded, and multi-process client-side agent, includes a kill switch, and SSL/TLS encryption.
+                    {t('epitapt')}
                 </P>
                 <List ml={4} my={4}>
                     <ListItem>
@@ -34,6 +36,16 @@ const Project = () => {
             </Container>
         </Layout>
     )
+}
+
+export async function getStaticProps({ locale }) {
+  return {
+    props: {
+      ...(await serverSideTranslations(locale, [
+        'common'
+      ])),
+    },
+  }
 }
 
 export default Project

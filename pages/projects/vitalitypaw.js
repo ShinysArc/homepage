@@ -3,8 +3,11 @@ import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, Meta } from '../../components/project'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
+import { useTranslation } from 'next-i18next';
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 
 const Project = () => {
+    const { t } = useTranslation('common');
     return (
         <Layout title="Vitality Paw">
             <Container>
@@ -12,7 +15,7 @@ const Project = () => {
                     Vitality Paw {' '}<Badge>2023</Badge>
                 </Title>
                 <P>
-                    This project was built with {' '}
+                    {t('vitality_paw.text_1')}
                     <Link href='https://github.com/bunbun721' target="_blank">
                         Georgia Bjärstål
                     </Link>, {' '}
@@ -22,15 +25,12 @@ const Project = () => {
                     <Link href='https://github.com/rrajaonarisoa' target="_blank">
                         Rianando Rajaonarisoa
                     </Link> {' '}
-                    for a Hackathon organized by {' '}
+                    {t('vitality_paw.text_2')}
                     <Link href='https://www.gottagohack.fr' target="_blank">
                         Gotta Go Hack
                     </Link>.
                     <br />
-                    Track your pet&apos;s activities and achieve wellness goals.
-                    View your pet&apos;s health statistics.
-                    Receive notifications to join your dog&apos;s friends when they go out for a walk.
-                    The frontend was written in React and the backend in NodeJS.
+                    {t('vitality_paw.text_3')}
                 </P>
                 <List ml={4} my={4}>
                     <ListItem>
@@ -58,5 +58,15 @@ const Project = () => {
         </Layout>
     )
 }
+
+export async function getStaticProps({ locale }) {
+    return {
+      props: {
+        ...(await serverSideTranslations(locale, [
+          'common'
+        ])),
+      },
+    }
+  }
 
 export default Project

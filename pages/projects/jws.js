@@ -3,8 +3,11 @@ import { Title, Meta } from '../../components/project'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 import { ProjectImage } from '../../components/project'
+import { useTranslation } from 'next-i18next';
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 
 const Project = () => {
+    const { t } = useTranslation('common');
     return (
         <Layout title="JWS">
             <Container>
@@ -12,7 +15,7 @@ const Project = () => {
                     Java Web Service {' '}<Badge>2022</Badge>
                 </Title>
                 <P>
-                    Implemented a Rest API in Java using a layered architecture.
+                    {t('jws')}
                 </P>
                 <List ml={4} my={4}>
                     <ListItem>
@@ -39,5 +42,15 @@ const Project = () => {
         </Layout>
     )
 }
+
+export async function getStaticProps({ locale }) {
+    return {
+      props: {
+        ...(await serverSideTranslations(locale, [
+          'common'
+        ])),
+      },
+    }
+  }
 
 export default Project

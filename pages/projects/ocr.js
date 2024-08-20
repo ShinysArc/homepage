@@ -3,8 +3,11 @@ import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, Meta } from '../../components/project'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
+import { useTranslation } from 'next-i18next';
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 
 const Project = () => {
+    const { t } = useTranslation('common');
     return (
         <Layout title="OCR">
             <Container>
@@ -12,7 +15,7 @@ const Project = () => {
                     OCR {' '}<Badge>2019</Badge>
                 </Title>
                 <P>
-                    An OCR written in C using GTK3 and SDL2 for the GUI.
+                    {t('ocr')}
                 </P>
                 <List ml={4} my={4}>
                     <ListItem>
@@ -40,5 +43,15 @@ const Project = () => {
         </Layout>
     )
 }
+
+export async function getStaticProps({ locale }) {
+    return {
+      props: {
+        ...(await serverSideTranslations(locale, [
+          'common'
+        ])),
+      },
+    }
+  }
 
 export default Project

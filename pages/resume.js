@@ -3,6 +3,7 @@ import styles from '../styles/Resume.module.css'
 import Layout from '../components/layouts/article'
 import { IoCalendarOutline, IoGlobeOutline, IoLocationOutline, IoLogoLinkedin, IoMailOutline } from 'react-icons/io5'
 import { Box, Button, Heading, Image, Link, useColorModeValue } from '@chakra-ui/react'
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 
 export const ResumeContent = () => (
     <div className={styles["resume"]}>
@@ -315,5 +316,15 @@ const Resume = () => (
         <DownloadButton />
     </Layout>
 )
+
+export async function getStaticProps({ locale }) {
+    return {
+        props: {
+        ...(await serverSideTranslations(locale, [
+            'common'
+        ])),
+        },
+    }
+}
 
 export default Resume

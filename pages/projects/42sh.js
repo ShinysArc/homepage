@@ -3,8 +3,11 @@ import { Title, Meta } from '../../components/project'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 import { ProjectImage } from '../../components/project'
+import { useTranslation } from 'next-i18next';
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 
 const Project = () => {
+    const { t } = useTranslation('common');
     return (
         <Layout title="42sh">
             <Container>
@@ -15,8 +18,7 @@ const Project = () => {
                 <ProjectImage src="/images/projects/42sh.gif" alt="42sh" />
 
                 <P>
-                    A POSIX compliant, Bash-like shell written in C. It also implements a few builtins such as
-                    echo, cd, export, source, and a few more.
+                    {t('42sh')}
                 </P>
                 <List ml={4} my={4}>
                     <ListItem>
@@ -38,5 +40,15 @@ const Project = () => {
         </Layout>
     )
 }
+
+export async function getStaticProps({ locale }) {
+    return {
+      props: {
+        ...(await serverSideTranslations(locale, [
+          'common'
+        ])),
+      },
+    }
+  }
 
 export default Project

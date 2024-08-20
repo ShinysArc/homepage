@@ -4,8 +4,11 @@ import { Title, Meta } from '../../components/project'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 import { ProjectImage } from '../../components/project'
+import { useTranslation } from 'next-i18next';
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 
 const Project = () => {
+    const { t } = useTranslation('common');
     return (
         <Layout title="BarBytes">
             <Container>
@@ -16,9 +19,7 @@ const Project = () => {
                 <ProjectImage src="/images/projects/ping.gif" alt="PING" />
 
                 <P>
-                    A C/C++ IDE written in 3 weeks, within a group of 5. It implements all the important
-                    features of an IDE such as compiling and running programs. It can also play music and change themes.
-                    The project was written in Java for the backend, we used Spark for the Rest API, and React JS for the frontend.
+                    {t('barbytes')}
                 </P>
                 <List ml={4} my={4}>
                     <ListItem>
@@ -46,5 +47,15 @@ const Project = () => {
         </Layout>
     )
 }
+
+export async function getStaticProps({ locale }) {
+    return {
+      props: {
+        ...(await serverSideTranslations(locale, [
+          'common'
+        ])),
+      },
+    }
+  }
 
 export default Project

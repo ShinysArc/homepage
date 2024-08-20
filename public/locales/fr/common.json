@@ -1,0 +1,100 @@
+{
+    "navbar": {
+        "projects": "Projets",
+        "resume": "CV"
+    },
+    "footer": "Stéphane Gelibert. Tous droits réservés.",
+    "main_page": "Page principale",
+    "404": "Nous ne parvenons pas à trouver la page que vous cherchez.",
+    "index": {
+        "greetings": "Salut, je suis étudiant ingénieur en informatique basé à Paris, France.",
+        "dev_eng_pho": "Développeur, ingénieur, photographe",
+        "about": {
+            "title": "A propos",
+            "text_1": "Je suis Stéphane Gelibert, étudiant ingénieur informatique à l'EPITA, basé à Paris, France. Je suis passionné par tout ce qui touche à l'informatique, à la programmation et au développement. Je me spécialise actuellement dans la cybersécurité.",
+            "text_2": "Quand je ne suis pas en ligne, j'aime passer du temps avec mon appareil photo.",
+            "text_3": "Je travaille actuellement chez ",
+            "text_4": "en tant que stagiaire SRE.",
+            "text_5": "Si mon profil attire votre attention, vous pouvez ",
+            "text_6": "cliquer ici pour voir mon CV ",
+            "text_7": "ou ",
+            "text_8": "me contacter !",
+            "portfolio": "Mon portfolio"
+        },
+        "skills": {
+            "title": "Compétences",
+            "programming_languages": "Langages de programmation",
+            "tools": "Outils",
+            "languages": {
+                "title": "Langues",
+                "content": "Français, Chinois Mandarin, Anglais (TOEIC 965)"
+            },
+            "driving_license": "Permis de conduire (B)"
+        },
+        "experience": {
+            "title": "Experience professionnelle",
+            "criteo": "Software Engineer Development Intern. J'ai rejoint l'équipe Relational Database Service, qui est une équipe de SREs. J'ai intégré PostgreSQL dans l'infrastructure de l'entreprise en utilisant Kubernetes.",
+            "ephemere": "Président. J'étais en charge des les événements de l'association, avec les autres membres du bureau. Les événements comprenaient des prestations pour les autres associations (couvertures, stands), ainsi que les week-ends d'intégration (WEI) et les événements pour les membres de l'association.",
+            "gdsc": "Engagement Director. J'étais chargé de l'engagement communautaire et de veiller à ce que le club reste actif.",
+            "odin_vision": "Software Engineer Intern. Je travaillais sur le produit principal de l'entreprise, CADDIE, en développant de nouvelles fonctionnalités et en corrigeant les bogues."
+        },
+        "side": {
+            "title": "Activités annexes",
+            "ggh4": "J'ai obtenu le deuxième prix avec mon équipe de 4 personnes. Nous avons développé une application qui aide à améliorer les soins aux animaux, le PoC est disponible sur ",
+            "404ctf": "Terminé 43ème parmi plus de 3000 participants.",
+            "wave_game": "Hackathon organisé par WaveStone, axé sur le pentesting et le cloud.",
+            "meta": "Terminé 13ème dans la région EMEA.",
+            "ggh3": "Développé un CRM pour les hôpitaux en équipe de 4. Le projet est disponible sur ",
+            "this_link": "ce lien"
+        },
+        "bio": {
+            "epita": "Etudiant à Epita, école d'ingénieur.",
+            "criteo": "Stage chez Criteo.",
+            "odin": "Stage chez Odin Vision.",
+            "bac": "Obtenu le baccalauréat scientifique, mention bien.",
+            "born": "Né à Paris, France."
+        },
+        "love": {
+            "title": "J'",
+            "taekwondo": "Je pratique le Taekwondo depuis quelques années et j'en suis tombée amoureux. Je suis toujours partant pour une séance d'entrainement. Je pratique le style ITF.",
+            "photography_title": "Photographie",
+            "photography": "J'ai découvert la photographie lorsque j'ai rejoint Epita. J'ai été étonnée par la quantité de possibilités qu'elle offre. J'ai donc immédiatement rejoint l'association de photographie et j'ai acheté un appareil photo avec mon premier salaire. Je prends souvent des photos de cosplay pour ma petite amie et je participe activement aux activités de l'association. J'ai été le président de l'association de photographie de mon école : ",
+            "music_title": "Musique",
+            "music": "J'écoute à peu près tout. Allant de la K-Pop au bon vieux Power Metal. Un gros bigup à DragonForce et Dreamcatcher, qui sont probablement mes groupes préférés tous genres confondus. Mais oui, tant que c'est de la bonne musique, je vais l'apprécier."
+        },
+        "contact": "Contactez-moi"
+    },
+    "projects": {
+        "title": "Projets",
+        "epitapt": "Un malware multiplateforme écrit en C++ pour le client et en Django pour le serveur C2.",
+        "vitality_paw": "Une application qui vous aide à améliorer vos soins aux animaux.",
+        "fic": "Challenges de Forensics pour la European Cyber Cup.",
+        "asclepios": "Une application web qui permet aux hôpitaux de gérer des dossiers médicaux.",
+        "barbytes": "Un IDE C/C++ écrit en 3 semaines.",
+        "tiger": "Un compilateur C++ pour le langage jouet Tiger.",
+        "jws": "Une API Rest en Java utilisant une architecture multi-couche.",
+        "42sh": "Un shell Bash-like, compatible POSIX écrit en C.",
+        "ocr": "Un OCR écrit en C en utilisant GTK3 et SDL2."
+    },
+    "epitapt": "Un malware sophistiqué et modulaire, multiplateforme, écrit en C++ pour les opérations côté client et Django pour le serveur de commande et contrôle. Comprend un client modulaire, multi-threadé et multi-processus, ainsi qu'un interrupteur d'arrêt et un chiffrement SSL/TLS.",
+    "vitality_paw": {
+        "text_1": "Ce projet a été développé avec ",
+        "text_2": "dans le cadre d'un hackathon organisé par ",
+        "text_3": "Suivez les activités de votre animal et atteignez vos objectifs de bien-être. Consultez les statistiques de santé de votre animal. Recevez des notifications pour rejoindre les amis de votre chien lorsqu'ils sortent se promener. Le frontend a été écrit en React et le backend en NodeJS."
+    },
+    "fic": {
+        "text_1": "Création de challenges ",
+        "text_2": " comprenant différents niveaux de difficulté (OSINT, Reverse Engineering, Cryptography, etc.).",
+        "text_3": "Les challenges ont été présentés pour la ECC (European Cyber Cup) durant le FIC (Forum International de la Cybersécurité)."
+    },
+    "asclepios": {
+        "text_1": "Ce projet a été développé avec ",
+        "text_2": "pour un Hackathon à Epita.",
+        "text_3": "Une application web qui permet aux hôpitaux de gérer des dossiers médicaux. Elle consiste en un intranet pour l'hôpital, qui est ensuite envoyé au backend. Il est entièrement chiffré à l'aide d'un algorithme de chiffrement homomorphique. Le frontend de l'intranet a été écrit en Svelte."
+    },
+    "barbytes": "Un IDE C/C++ écrit en 3 semaines, au sein d'un groupe de 5 personnes. Il implémente toutes les fonctionnalités importantes d'un IDE telles que la compilation et l'exécution de programmes. Il peut également jouer de la musique et changer de thème. Le projet a été écrit en Java pour le backend, nous avons utilisé Spark pour l'API Rest, et React JS pour le frontend.",
+    "tiger": "Frontend d'un compilateur pour le langage jouet Tiger, tel que décrit dans le livre 'Modern Compiler Implementation' par Andrew Appel. Il a été écrit en C++ par un groupe de 4 étudiants.",
+    "jws": "Une API Rest en Java utilisant une architecture multi-couche.",
+    "42sh": "Un shell compatible POSIX, Bash-like, écrit en C. Il implémente également quelques fonctions intégrées telles que echo, cd, export, source, et quelques autres.",
+    "ocr": "Un OCR écrit en C en utilisant GTK3 et SDL2 pour le GUI."
+}
