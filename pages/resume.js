@@ -12,12 +12,12 @@ export const ResumeContent = () => (
             <Box className={styles["description"]}
                 color={useColorModeValue('teal', 'glassTeal')}
             >
-                <span className={styles["description-emphasize"]}>Computer engineering student</span>, specializing in <span className={styles["description-emphasize"]}>cybersecurity</span>
+                <span className={styles["description-emphasize"]}>Software Engineer</span>, specializing in <span className={styles["description-emphasize"]}>DevOps</span> and <span className={styles["description-emphasize"]}>Cloud</span>
             </Box>
 
             <div className={styles["contact"]}>
-                <Link className={styles["contact-item"]} target="_blank" href="https://www.google.com/maps/place/Paris/@48.864872,2.2183041,11z/data=!4m5!3m4!1s0x47e66e1f06e2b70f:0x40b82c3688c9460!8m2!3d48.856614!4d2.3522219">
-                    <IoLocationOutline className={styles["icon-font"]} /> Paris, France
+                <Link className={styles["contact-item"]} target="_blank" href="https://www.google.com/maps/place/Berlin">
+                    <IoLocationOutline className={styles["icon-font"]} /> Berlin, Germany
                 </Link>
 
                 <Link className={styles["contact-item"]} target="_blank" href="/">
@@ -69,6 +69,28 @@ export const ResumeContent = () => (
                 </Heading>
 
                 <div className={styles["experience"]}>
+                    <div className={styles["experience-content"]}>
+                        <div className={styles["experience-header"]}>
+                            <div className={styles["subtitle"]}>
+                                <span className={styles["emphasize"]}>Software Engineer</span> at <Link target="_blank" rel="nofollow noopener noreferrer" href="https://www.aws.amazon.com">Amazon Web Services</Link>
+                            </div>
+                            <div className={styles["experience-icons"]}>
+                                <div className={styles["location"]}>
+                                    <IoLocationOutline className={styles["icon-font"]} /> Berlin, DE
+                                </div>
+                                <div className={styles["date"]}>
+                                    <IoCalendarOutline className={styles["icon-font"]} /> Oct. 2024 -
+                                </div>
+                            </div>
+                        </div>
+                        <div className={styles["text"]}>
+                            <ul>
+                                <li>
+                                    Software Engineer at Amazon Web Services (AWS) in the Cloud IDE team.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                     <div className={styles["experience-content"]}>
                         <div className={styles["experience-header"]}>
                             <div className={styles["subtitle"]}>
@@ -141,7 +163,7 @@ export const ResumeContent = () => (
                     <div className={styles["experience-content"]}>
                         <div className={styles["experience-header"]}>
                             <div className={styles["subtitle"]}>
-                                <span className={styles["emphasize"]}>Core Team Member</span> at <Link target="_blank" rel="nofollow noopener noreferrer" href="https://https://gdsc.community.dev/epita/">GDSC EPITA</Link>
+                                <span className={styles["emphasize"]}>Core Team Member</span> at <Link target="_blank" rel="nofollow noopener noreferrer" href="https://gdsc.community.dev/epita/">GDSC EPITA</Link>
                             </div>
                             <div className={styles["experience-icons"]}>
                                 <div className={styles["location"]}>
@@ -155,8 +177,7 @@ export const ResumeContent = () => (
                         <div className={styles["text"]}>
                             <ul>
                                 <li>
-                                    Played a vital role in organizing and running the club&apos;s activities and events.
-                                    GDSCs are community-driven groups that are officially recognized by Google to help students interested in
+                                    Google Developer Student Clubs are community-driven groups that are officially recognized by Google to help students interested in
                                     technology and development enhance their skills, collaborate on projects, and connect with industry professionals
                                 </li>
                             </ul>

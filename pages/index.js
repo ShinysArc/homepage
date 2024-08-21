@@ -57,8 +57,8 @@ const Page = () => {
                         {t('index.about.text_2')}
                         <br />
                         {t('index.about.text_3')} {' '}
-                        <Link href="https://www.criteo.com">
-                            Criteo
+                        <Link href="https://aws.amazon.com">
+                            Amazon Web Services
                         </Link> {t('index.about.text_4')} {' '}
                         {t('index.about.text_5')} {' '}
                         <Link href="/resume">
@@ -107,6 +107,12 @@ const Page = () => {
                         {t('index.experience.title')}
                     </Heading>
                     <List>
+                        <ListItem>
+                            <BioYear>AWS</BioYear><Badge>2024 -</Badge>
+                            <br />
+                            {t('index.experience.aws')}
+                        </ListItem>
+                        <br />
                         <ListItem>
                             <BioYear>Criteo</BioYear><Badge>2024</Badge>
                             <br />
@@ -171,6 +177,10 @@ const Page = () => {
                     <Heading as="h3" variant="section-title">
                         Bio
                     </Heading>
+                    <BioSection>
+                        <BioYear>2024 -</BioYear>
+                        {t('index.bio.aws')}
+                    </BioSection>
                     <BioSection>
                         <BioYear>2018 - 2024</BioYear>
                         {t('index.bio.epita')}

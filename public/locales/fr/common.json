@@ -7,14 +7,14 @@
     "main_page": "Page principale",
     "404": "Nous ne parvenons pas à trouver la page que vous cherchez.",
     "index": {
-        "greetings": "Salut, je suis étudiant ingénieur en informatique basé à Paris, France.",
+        "greetings": "Salut, je suis ingénieur logiciel basé à Berlin, Allemagne.",
         "dev_eng_pho": "Développeur, ingénieur, photographe",
         "about": {
             "title": "A propos",
-            "text_1": "Je suis Stéphane Gelibert, étudiant ingénieur informatique à l'EPITA, basé à Paris, France. Je suis passionné par tout ce qui touche à l'informatique, à la programmation et au développement. Je me spécialise actuellement dans la cybersécurité.",
+            "text_1": "Je suis Stéphane Gelibert, ingénieur diplômé de l'EPITA, basé à Berlin, Allemagne. Je suis passionné par tout ce qui touche à l'informatique, à la programmation et au développement. Je suis particulièrement passionné par le DevOps.",
             "text_2": "Quand je ne suis pas en ligne, j'aime passer du temps avec mon appareil photo.",
-            "text_3": "Je travaille actuellement chez ",
-            "text_4": "en tant que stagiaire SRE.",
+            "text_3": "A partir d'octobre 2024, je travaillerai chez ",
+            "text_4": "en tant qu'Ingénieur Logiciel.",
             "text_5": "Si mon profil attire votre attention, vous pouvez ",
             "text_6": "cliquer ici pour voir mon CV",
             "text_7": " ou ",
@@ -33,7 +33,8 @@
         },
         "experience": {
             "title": "Experience professionnelle",
-            "criteo": "Software Engineer Development Intern. J'ai rejoint l'équipe Relational Database Service, qui est une équipe de SREs. J'ai intégré PostgreSQL dans l'infrastructure de l'entreprise en utilisant Kubernetes.",
+            "aws": "Software Engineer. Je fais partie de l'équipe Cloud IDE. Le produit est un IDE en ligne qui permet aux développeurs de travailler directement sur le cloud.",
+            "criteo": "Software Engineer Development Intern. Je faisais partie de l'équipe Relational Database Service, qui est une équipe de SREs. J'ai intégré PostgreSQL dans l'infrastructure de l'entreprise en utilisant Kubernetes.",
             "ephemere": "Président. J'étais en charge des les événements de l'association, avec les autres membres du bureau. Les événements comprenaient des prestations pour les autres associations (couvertures, stands), ainsi que les week-ends d'intégration (WEI) et les événements pour les membres de l'association.",
             "gdsc": "Engagement Director. J'étais chargé de l'engagement communautaire et de veiller à ce que le club reste actif.",
             "odin_vision": "Software Engineer Intern. Je travaillais sur le produit principal de l'entreprise, CADDIE, en développant de nouvelles fonctionnalités et en corrigeant les bogues."
@@ -48,6 +49,7 @@
             "this_link": "ce lien"
         },
         "bio": {
+            "aws": "CDI chez Amazon Web Services en tant qu'ingénieur logiciel.",
             "epita": "Etudiant à Epita, école d'ingénieur.",
             "criteo": "Stage chez Criteo.",
             "odin": "Stage chez Odin Vision.",
@@ -76,7 +78,7 @@
         "42sh": "Un shell Bash-like, compatible POSIX écrit en C.",
         "ocr": "Un OCR écrit en C en utilisant GTK3 et SDL2."
     },
-    "epitapt": "Un malware sophistiqué et modulaire, multiplateforme, écrit en C++ pour les opérations côté client et Django pour le serveur de commande et contrôle. Comprend un client modulaire, multi-threadé et multi-processus, ainsi qu'un interrupteur d'arrêt et un chiffrement SSL/TLS.",
+    "epitapt": "Un malware sophistiqué et modulaire, multiplateforme, écrit en C++ pour les opérations côté client et Django pour le serveur de commande et contrôle. Comprend un client modulaire, multi-threadé et multi-processus, ainsi qu'un interrupteur d'arrêt et un chiffrement SSL/TLS. Chaque module est envoyé depuis le serveur jusqu'au client à la demande de celui-ci, puis chargé en mémoire sans passer par le disque dur. Pour des raisons évidentes, le code source ne peut pas être partagé.",
     "vitality_paw": {
         "text_1": "Ce projet a été développé avec ",
         "text_2": "dans le cadre d'un hackathon organisé par ",

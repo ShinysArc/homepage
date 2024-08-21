@@ -7,14 +7,14 @@
     "main_page": "Go to main page",
     "404": "We cannot seem to find the page you are looking for.",
     "index": {
-        "greetings": "Hi, I'm a computer engineering student based in Paris, France.",
+        "greetings": "Hi, I'm a Software Engineer based in Berlin, Germany.",
         "dev_eng_pho": "Developer, engineer, photographer",
         "about": {
             "title": "About",
-            "text_1": "I am Stephane Gelibert, a computer engineering student at EPITA, based in Paris, France. I have a knack for all things related to IT, programming, and development. I am currently specializing in cybersecurity.",
+            "text_1": "I'm Stephane Gelibert, a graduate engineer from EPITA, based in Berlin, Germany. I'm passionate about everything to do with computing, programming and development. I'm particularly passionate about DevOps.",
             "text_2": "When not online, I love hanging out with my camera.",
-            "text_3": "I'm currently working at ",
-            "text_4": "as an SRE intern.",
+            "text_3": "Starting from October 2024, I'll be working at ",
+            "text_4": "as a Software Engineer.",
             "text_5": "If my profile piques your interest, you can ",
             "text_6": "click here to see my resume",
             "text_7": " or ",
@@ -33,7 +33,8 @@
         },
         "experience": {
             "title": "Professional experience",
-            "criteo": "Software Engineer Development Intern. I joined the Relational Database Service team, which is a team of SREs. I integrated PostgreSQL into the company's infrastructure using Kubernetes.",
+            "aws": "Software Engineer. I'm part of the Cloud IDE team. The product is a remote IDE that allows developers to code directly in the cloud.",
+            "criteo": "Software Engineer Development Intern. I was part of the Relational Database Service team, which is a team of SREs. I integrated PostgreSQL into the company's infrastructure using Kubernetes.",
             "ephemere": "President. I was in charge of all the events of the club, along with the other board members who helped me. The events included prestations for the other clubs (covers, stands), as well as the integration weekends (WEI) and events for the members of the club.",
             "gdsc": "Engagement Director. I was in charge of the community engagement and making sure the club stays active.",
             "odin_vision": "Software Engineer Intern. I was working on the company's main product called CADDIE by developing new features and fixing bugs."
@@ -48,8 +49,9 @@
             "this_link": "this link"
         },
         "bio": {
+            "aws": "Working at AWS as a Software Engineer.",
             "epita": "Student at Epita engineering school.",
-            "criteo": "Working at Criteo as an intern.",
+            "criteo": "Worked at Criteo as an intern.",
             "odin": "Worked at Odin Vision as an intern.",
             "bac": "Obtained the scientific baccalaureate, with honors.",
             "born": "Born in Paris, France."
@@ -76,7 +78,7 @@
         "42sh": "A POSIX compliant, Bash-like shell written in C.",
         "ocr": "An OCR written in C using GTK3 and SDL2."
     },
-    "epitapt": "A sophisticated, modular cross-platform malware ecosystem leveraging C++ for client-side operations and Django for centralized command and control. Includes a modular, multi-threaded, and multi-process client-side agent, includes a kill switch, and SSL/TLS encryption.",
+    "epitapt": "A sophisticated, modular cross-platform malware ecosystem leveraging C++ for client-side operations and Django for centralized command and control. Includes a modular, multi-threaded, and multi-process client-side agent, includes a kill switch, and SSL/TLS encryption. Each module is sent from the server to the client at the latter's request, then loaded into memory without passing through the hard disk. For obvious reasons, the source code cannot be disclosed.",
     "vitality_paw": {
         "text_1": "This project was built with ",
         "text_2": "for a Hackathon organized by ",
