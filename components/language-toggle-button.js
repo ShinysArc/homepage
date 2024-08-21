@@ -2,6 +2,7 @@ import { AnimatePresence, motion } from 'framer-motion'
 import { IconButton } from "@chakra-ui/react"
 import { useTranslation } from 'next-i18next'
 import { useRouter } from 'next/router'
+import Image from 'next/image'
 
 const LanguageToggleButton = () => {
     const router = useRouter()
@@ -25,7 +26,7 @@ const LanguageToggleButton = () => {
             >
                 <IconButton aria-label="Toggle theme"
                     colorScheme={'white'}
-                    icon={<img src={`/images/icons/${i18n.language === 'en' ? 'fr' : 'en'}.png`} alt="Flag" />}
+                    icon={<Image src={`/images/icons/${i18n.language === 'en' ? 'fr' : 'en'}.png`} alt="Flag" />}
                     onClick={handleLanguageToggle}
                 ></IconButton>
             </motion.div>
