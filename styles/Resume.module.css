@@ -60,11 +60,10 @@
 .contact {
     display: flex;
     font-family: 'M PLUS Rounded 1c';
-    margin-top: 6px;
 }
 
 .contact-item {
-    margin-top: 6px;
+    margin-top: 3px;
     margin-right: 14px;
 
     font-size: 13px;
