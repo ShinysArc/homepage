@@ -2,7 +2,7 @@ import puppeteer from 'puppeteer'
 
 const download = async (req, res) => {
   const browser = await puppeteer.launch({
-    headless: "new",
+    headless: true,
     args: [   '--disable-features=IsolateOrigins',
             '--disable-site-isolation-trials',
             '--autoplay-policy=user-gesture-required',
@@ -28,6 +28,7 @@ const download = async (req, res) => {
             '--disable-setuid-sandbox',
             '--disable-speech-api',
             '--disable-sync',
+            '--disable-gpu',
             '--hide-scrollbars',
             '--ignore-gpu-blacklist',
             '--metrics-recording-only',
