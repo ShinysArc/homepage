@@ -2,7 +2,6 @@ import { AnimatePresence, motion } from 'framer-motion'
 import { IconButton } from "@chakra-ui/react"
 import { useTranslation } from 'next-i18next'
 import { useRouter } from 'next/router'
-import Image from 'next/image'
 
 const LanguageToggleButton = () => {
     const router = useRouter()
