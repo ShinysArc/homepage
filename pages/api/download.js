@@ -61,7 +61,7 @@ const download = async (req, res) => {
 
     if (articleElement) {
       articleElement.style.marginTop = '-65px';
-      articleElement.style.marginLeft = '-31px';
+      articleElement.style.marginLeft = '-15px';
 
       const buttonElement = articleElement.querySelector('button');
       if (buttonElement) {
