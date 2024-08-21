@@ -26,7 +26,7 @@ const LanguageToggleButton = () => {
             >
                 <IconButton aria-label="Toggle theme"
                     colorScheme={'white'}
-                    icon={<Image src={`/images/icons/${i18n.language === 'en' ? 'fr' : 'en'}.png`} alt="Flag" />}
+                    icon={<img src={`/images/icons/${i18n.language === 'en' ? 'fr' : 'en'}.png`} alt="Flag" />}
                     onClick={handleLanguageToggle}
                 ></IconButton>
             </motion.div>
