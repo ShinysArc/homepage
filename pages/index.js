@@ -108,7 +108,7 @@ const Page = () => {
                     </Heading>
                     <List>
                         <ListItem>
-                            <BioYear>AWS</BioYear><Badge>2024 -</Badge>
+                            <BioYear>Amazon Web Services</BioYear><Badge>2024 -</Badge>
                             <br />
                             {t('index.experience.aws')}
                         </ListItem>
