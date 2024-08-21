@@ -26,11 +26,7 @@
 @media (max-width: 220mm) {
     .resume {
         display: block;
-        padding: 0;
-    }
-
-    .page-main {
-        box-shadow: none;
+        margin-left: -3.5%;
     }
 }
 
