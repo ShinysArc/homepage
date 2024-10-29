@@ -85,7 +85,7 @@ const Page = () => {
                     <List>
                         <ListItem>
                             <BioYear>{t('index.skills.programming_languages')}</BioYear>
-                            C, C++, Java, C#, Python, JavaScript, OCaml
+                            Golang, C, C++, Java, C#, Python, JavaScript/TypeScript
                         </ListItem>
                         <ListItem>
                             <BioYear>{t('index.skills.tools')}</BioYear>

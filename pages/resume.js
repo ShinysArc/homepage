@@ -86,7 +86,7 @@ export const ResumeContent = () => (
                         <div className={styles["text"]}>
                             <ul>
                                 <li>
-                                    Software Engineer at Amazon Web Services (AWS) in the Cloud IDE team.
+                                    Software Engineer at Amazon Web Services (AWS) in the AWS IDEs team.
                                 </li>
                             </ul>
                         </div>
@@ -196,7 +196,7 @@ export const ResumeContent = () => (
                         <div className={styles["skills-header"]}>
                             <span className={styles["emphasize"]}>Programming</span>
                             <span className={styles["skills-list"]}>
-                                C, C++, C#, Python, Java, JavaScript
+                                Golang, C, C++, C#, Python, Java, JavaScript
                             </span>
                         </div>
                         <div className={styles["skills-header"]}>

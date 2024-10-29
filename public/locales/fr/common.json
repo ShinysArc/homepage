@@ -13,7 +13,7 @@
             "title": "A propos",
             "text_1": "Je suis Stéphane Gelibert, ingénieur diplômé de l'EPITA, basé à Berlin, Allemagne. Je suis passionné par tout ce qui touche à l'informatique, à la programmation et au développement. Je suis particulièrement passionné par le DevOps.",
             "text_2": "Quand je ne suis pas en ligne, j'aime passer du temps avec mon appareil photo.",
-            "text_3": "A partir d'octobre 2024, je travaillerai chez ",
+            "text_3": "Je travaille actuellement chez ",
             "text_4": "en tant qu'Ingénieur Logiciel.",
             "text_5": "Si mon profil attire votre attention, vous pouvez ",
             "text_6": "cliquer ici pour voir mon CV",
@@ -33,8 +33,8 @@
         },
         "experience": {
             "title": "Experience professionnelle",
-            "aws": "Software Engineer. Je fais partie de l'équipe Cloud IDE. Le produit est un IDE en ligne qui permet aux développeurs de travailler directement sur le cloud.",
-            "criteo": "Software Engineer Development Intern. Je faisais partie de l'équipe Relational Database Service, qui est une équipe de SREs. J'ai intégré PostgreSQL dans l'infrastructure de l'entreprise en utilisant Kubernetes.",
+            "aws": "Software Engineer. Je fais partie de l'équipe AWS IDEs. Le produit est un environnement de développement en ligne qui permet aux développeurs de travailler directement sur le cloud.",
+            "criteo": "Software Development Engineer Intern. Je faisais partie de l'équipe Relational Database Service, qui est une équipe de SREs. J'ai intégré PostgreSQL dans l'infrastructure de l'entreprise en utilisant Kubernetes.",
             "ephemere": "Président. J'étais en charge des les événements de l'association, avec les autres membres du bureau. Les événements comprenaient des prestations pour les autres associations (couvertures, stands), ainsi que les week-ends d'intégration (WEI) et les événements pour les membres de l'association.",
             "gdsc": "Engagement Director. J'étais chargé de l'engagement communautaire et de veiller à ce que le club reste actif.",
             "odin_vision": "Software Engineer Intern. Je travaillais sur le produit principal de l'entreprise, CADDIE, en développant de nouvelles fonctionnalités et en corrigeant les bogues."

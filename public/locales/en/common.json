@@ -13,7 +13,7 @@
             "title": "About",
             "text_1": "I'm Stephane Gelibert, a graduate engineer from EPITA, based in Berlin, Germany. I'm passionate about everything to do with computing, programming and development. I'm particularly passionate about DevOps.",
             "text_2": "When not online, I love hanging out with my camera.",
-            "text_3": "Starting from October 2024, I'll be working at ",
+            "text_3": "I'm currently working at ",
             "text_4": "as a Software Engineer.",
             "text_5": "If my profile piques your interest, you can ",
             "text_6": "click here to see my resume",
@@ -33,8 +33,8 @@
         },
         "experience": {
             "title": "Professional experience",
-            "aws": "Software Engineer. I'm part of the Cloud IDE team. The product is a remote IDE that allows developers to code directly in the cloud.",
-            "criteo": "Software Engineer Development Intern. I was part of the Relational Database Service team, which is a team of SREs. I integrated PostgreSQL into the company's infrastructure using Kubernetes.",
+            "aws": "Software Engineer. I'm part of the AWS IDEs team. The product is a development environment that allows developers to code directly in the cloud.",
+            "criteo": "Software Development Engineer Intern. I was part of the Relational Database Service team, which is a team of SREs. I integrated PostgreSQL into the company's infrastructure using Kubernetes.",
             "ephemere": "President. I was in charge of all the events of the club, along with the other board members who helped me. The events included prestations for the other clubs (covers, stands), as well as the integration weekends (WEI) and events for the members of the club.",
             "gdsc": "Engagement Director. I was in charge of the community engagement and making sure the club stays active.",
             "odin_vision": "Software Engineer Intern. I was working on the company's main product called CADDIE by developing new features and fixing bugs."
