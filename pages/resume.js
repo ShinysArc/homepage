@@ -79,14 +79,14 @@ export const ResumeContent = () => (
                                     <IoLocationOutline className={styles["icon-font"]} /> Berlin, DE
                                 </div>
                                 <div className={styles["date"]}>
-                                    <IoCalendarOutline className={styles["icon-font"]} /> Oct. 2024 -
+                                    <IoCalendarOutline className={styles["icon-font"]} /> Oct. 2024 - Present
                                 </div>
                             </div>
                         </div>
                         <div className={styles["text"]}>
                             <ul>
                                 <li>
-                                    Software Engineer at Amazon Web Services (AWS) in the AWS IDEs team.
+                                    Working on AWS MDE, a fully managed service that provides secure, scalable, and sandboxed compute containers for software development, powering and integrating with various AWS and third-party services.
                                 </li>
                             </ul>
                         </div>
@@ -108,7 +108,7 @@ export const ResumeContent = () => (
                         <div className={styles["text"]}>
                             <ul>
                                 <li>
-                                    Tasked with the integration of a new PostgreSQL database into our company&apos;s infrastructure leveraging Kubernetes orchestration
+                                    Tasked with the integration of a new PostgreSQL database into the company&apos;s infrastructure leveraging Kubernetes orchestration
                                 </li>
                             </ul>
                         </div>
@@ -196,25 +196,25 @@ export const ResumeContent = () => (
                         <div className={styles["skills-header"]}>
                             <span className={styles["emphasize"]}>Programming</span>
                             <span className={styles["skills-list"]}>
-                                Golang, C, C++, C#, Python, Java, JavaScript
+                                Golang, C, C++, C#, Python, Java, JavaScript, TypeScript
                             </span>
                         </div>
                         <div className={styles["skills-header"]}>
                             <span className={styles["emphasize"]}>Tools</span>
                             <span className={styles["skills-list"]}>
-                                VMWare ESXi, Ansible, PowerShell, MISP, Active Directory, PfSense, Git, Docker, Kubernetes
+                                AWS EC2, ECS, CloudFormation, Cloudwatch, CDK; VMWare ESXi, Ansible, Docker, Kubernetes
                             </span>
                         </div>
                         <div className={styles["skills-header"]}>
                             <span className={styles["emphasize"]}>Databases</span>
                             <span className={styles["skills-list"]}>
-                                PostgreSQL, MongoDB
+                                AWS S3, DynamoDB; PostgreSQL, MongoDB
                             </span>
                         </div>
                         <div className={styles["skills-header"]}>
                             <span className={styles["emphasize"]}>Operating Systems</span>
                             <span className={styles["skills-list"]}>
-                                Windows, Linux
+                                Windows, Linux, MacOS
                             </span>
                         </div>
                         <div className={styles["skills-header"]}>
@@ -239,7 +239,7 @@ export const ResumeContent = () => (
                             <div className={styles["projects-header"]}>
                                 <div className={styles["subtitle"]}>
                                     <span className={styles["emphasize"]}>ARS</span>
-                                    <Image className={styles["projects-image"]} src="images/resume/esxi.png" alt="Esxi" />
+                                    <Image className={styles["projects-image"]} src="/images/resume/esxi.png" alt="Esxi" />
                                 </div>
                                 <div className={styles["date"]}>
                                     <IoCalendarOutline className={styles["icon-font"]} /> Feb. 2023 - Dec. 2023
@@ -257,7 +257,7 @@ export const ResumeContent = () => (
                             <div className={styles["projects-header"]}>
                                 <div className={styles["subtitle"]}>
                                     <span className={styles["emphasize"]}>Forum International de la Cybersécurité</span>
-                                    <Image className={styles["projects-image"]} src="images/resume/fic.png" alt="Fic" />
+                                    <Image className={styles["projects-image"]} src="/images/resume/fic.png" alt="Fic" />
                                 </div>
                                 <div className={styles["date"]}>
                                     <IoCalendarOutline className={styles["icon-font"]} /> Mar. 2023 - Dec. 2023
@@ -275,7 +275,7 @@ export const ResumeContent = () => (
                             <div className={styles["projects-header"]}>
                                 <div className={styles["subtitle"]}>
                                     <span className={styles["emphasize"]}>Tiger Compiler</span>
-                                    <Image className={styles["projects-image"]} src="images/resume/Cplusplus.svg" alt="Cplusplus" />
+                                    <Image className={styles["projects-image"]} src="/images/resume/Cplusplus.svg" alt="Cplusplus" />
                                 </div>
                                 <div className={styles["date"]}>
                                     <IoCalendarOutline className={styles["icon-font"]} /> Mar. 2022 - Apr. 2022
@@ -292,7 +292,7 @@ export const ResumeContent = () => (
                             <div className={styles["projects-header"]}>
                                 <div className={styles["subtitle"]}>
                                     <span className={styles["emphasize"]}>42sh</span>
-                                    <Image className={styles["projects-image"]} src="images/resume/C.svg" alt="C" />
+                                    <Image className={styles["projects-image"]} src="/images/resume/C.svg" alt="C" />
                                 </div>
                                 <div className={styles["date"]}>
                                     <IoCalendarOutline className={styles["icon-font"]} /> Nov. 2021 - Dec. 2021

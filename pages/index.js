@@ -89,7 +89,7 @@ const Page = () => {
                         </ListItem>
                         <ListItem>
                             <BioYear>{t('index.skills.tools')}</BioYear>
-                            Kubernetes, Docker, VMWare ESXi, Active Directory, Ansible, PFSense, PowerShell, MISP, Graylog
+                            AWS EC2, ECS, S3, DynamoDB, CloudFormation, Cloudwatch, CDK; Kubernetes, Docker, VMWare ESXi, Ansible
                         </ListItem>
                         <ListItem>
                             <BioYear>{t('index.skills.languages.title')}</BioYear>
@@ -108,7 +108,7 @@ const Page = () => {
                     </Heading>
                     <List>
                         <ListItem>
-                            <BioYear>Amazon Web Services</BioYear><Badge>2024 -</Badge>
+                            <BioYear>Amazon Web Services</BioYear><Badge>2024 - Present</Badge>
                             <br />
                             {t('index.experience.aws')}
                         </ListItem>
@@ -178,7 +178,7 @@ const Page = () => {
                         Bio
                     </Heading>
                     <BioSection>
-                        <BioYear>2024 -</BioYear>
+                        <BioYear>2024 - Present</BioYear>
                         {t('index.bio.aws')}
                     </BioSection>
                     <BioSection>

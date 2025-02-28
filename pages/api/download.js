@@ -44,7 +44,7 @@ const download = async (req, res) => {
   })
 
   const page = await browser.newPage()
-  await page.goto(`https://stephanegelibert.com/resume`, { waitUntil: 'networkidle2' })
+  await page.goto(`http://localhost:3000/resume`, { waitUntil: 'networkidle2' })
   const { theme } = req.query;
   await page.emulateMediaFeatures([{
     name: 'prefers-color-scheme', value: theme

@@ -33,7 +33,7 @@
         },
         "experience": {
             "title": "Professional experience",
-            "aws": "Software Engineer. I'm part of the AWS IDEs team. The product is a development environment that allows developers to code directly in the cloud.",
+            "aws": "Software Engineer. I work on AWS MDE (Managed Development Environment). A fully managed service that provides safe, scalable and sandboxed compute containers optimized for software development use cases. MDE powers services such as AWS Cloudshell, AWS Q Transform, AWS App Studio, Amazon CodeCatalyst, Amazon Sagemaker, Salesforce Code Builder and integrating with many more services.",
             "criteo": "Software Development Engineer Intern. I was part of the Relational Database Service team, which is a team of SREs. I integrated PostgreSQL into the company's infrastructure using Kubernetes.",
             "ephemere": "President. I was in charge of all the events of the club, along with the other board members who helped me. The events included prestations for the other clubs (covers, stands), as well as the integration weekends (WEI) and events for the members of the club.",
             "gdsc": "Engagement Director. I was in charge of the community engagement and making sure the club stays active.",
@@ -60,7 +60,7 @@
             "title": "I ",
             "taekwondo": "I have been practicing Taekwondo for a few years and I have to say I fell in love with it. I always enjoy a fun kicking session. I train in the ITF style.",
             "photography_title": "Photography",
-            "photography": "I discovered photography when I first joined Epita. I was astonished by the sheer amount of possibilities it can lead to. So I instantly joined the photography club and bought a camera with my first salary. I often shoot cosplay photos for my girlfriend, and actively participate in club activities. I am currently the president of my school's photography club: ",
+            "photography": "I discovered photography when I first joined Epita. I was astonished by the sheer amount of possibilities it can lead to. So I instantly joined the photography club and bought a camera with my first salary. I often shoot cosplay photos for my girlfriend, and actively participate in club activities. I was the president of my school's photography club: ",
             "music_title": "Music",
             "music": "I listen to pretty much everything. My range can go from K-Pop to good old Power Metal. A big shoutout to DragonForce and Dreamcatcher, these are probably my favorite groups ever. But yeah, as long as it's good, I can vibe to it."
         },
