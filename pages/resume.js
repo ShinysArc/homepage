@@ -86,7 +86,10 @@ export const ResumeContent = () => (
                         <div className={styles["text"]}>
                             <ul>
                                 <li>
-                                    Working on AWS MDE, a fully managed service that provides secure, scalable, and sandboxed compute containers for software development, powering and integrating with various AWS and third-party services.
+                                    Currently working on <Link target="_blank" rel="nofollow noopener noreferrer" href="https://aws.amazon.com/codebuild/">AWS CodeBuild</Link>, a fully managed continuous integration service that compiles source code, runs tests, and produces ready-to-deploy software packages.
+                                </li>
+                                <li>
+                                    Worked on AWS MDE, a fully managed service that provides secure, scalable, and sandboxed compute containers for software development, powering and integrating with various AWS and third-party services.
                                 </li>
                             </ul>
                         </div>
@@ -132,30 +135,6 @@ export const ResumeContent = () => (
                                 <li>
                                     Worked on the company&apos;s main product called CADDIE by developing new features and fixing bugs.
                                     Implemented a feature that improved the speed of tumor predictions by 9 times.
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div className={styles["experience-content"]}>
-                        <div className={styles["experience-header"]}>
-                            <div className={styles["subtitle"]}>
-                                <span className={styles["emphasize"]}>President</span> of <Link target="_blank" rel="nofollow noopener noreferrer" href="https://ephemere.photo">Ephemere</Link>
-                            </div>
-                            <div className={styles["experience-icons"]}>
-                                <div className={styles["location"]}>
-                                    <IoLocationOutline className={styles["icon-font"]} /> Le Kremlin-Bicêtre, FR
-                                </div>
-                                <div className={styles["date"]}>
-                                    <IoCalendarOutline className={styles["icon-font"]} /> Mar. 2023 - Feb. 2024
-                                </div>
-                            </div>
-                        </div>
-                        <div className={styles["text"]}>
-                            <ul>
-                                <li>
-                                    President of the school&apos;s photography association.
-                                    Strong management skills are crucial for effectively leading the association and its members.
-                                    The association&apos;s goal is to promote photography and cover events for the school&apos;s students.
                                 </li>
                             </ul>
                         </div>

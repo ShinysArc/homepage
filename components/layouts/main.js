@@ -3,10 +3,6 @@ import NavBar from '../navbar.js'
 import { Box, Container } from '@chakra-ui/react'
 import Footer from '../footer'
 
-export const metadata = {
-    
-}
-
 const Main = ({ children, router }) => {
     return (
         <Box as="main" pb={8}>

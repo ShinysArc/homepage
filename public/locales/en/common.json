@@ -33,7 +33,9 @@
         },
         "experience": {
             "title": "Professional experience",
-            "aws": "Software Engineer. I work on AWS MDE (Managed Development Environment). A fully managed service that provides safe, scalable and sandboxed compute containers optimized for software development use cases. MDE powers services such as AWS Cloudshell, AWS Q Transform, AWS App Studio, Amazon CodeCatalyst, Amazon Sagemaker, Salesforce Code Builder and integrating with many more services.",
+            "aws_codebuild_1": "Software Engineer. Working on ",
+            "aws_codebuild_2": ", a fully managed build service that compiles source code, runs tests, and produces ready-to-deploy software packages.",
+            "aws_mde": "Previously I worked on AWS MDE (Managed Development Environment). A fully managed service that provides safe, scalable and sandboxed compute containers optimized for software development use cases. MDE powers services such as AWS CloudShell, AWS Q Transform, AWS App Studio, Amazon Sagemaker, Salesforce Code Builder and integrating with many more services.",
             "criteo": "Software Development Engineer Intern. I was part of the Relational Database Service team, which is a team of SREs. I integrated PostgreSQL into the company's infrastructure using Kubernetes.",
             "ephemere": "President. I was in charge of all the events of the club, along with the other board members who helped me. The events included prestations for the other clubs (covers, stands), as well as the integration weekends (WEI) and events for the members of the club.",
             "gdsc": "Engagement Director. I was in charge of the community engagement and making sure the club stays active.",

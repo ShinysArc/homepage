@@ -110,7 +110,11 @@ const Page = () => {
                         <ListItem>
                             <BioYear>Amazon Web Services</BioYear><Badge>2024 - Present</Badge>
                             <br />
-                            {t('index.experience.aws')}
+                            {t('index.experience.aws_codebuild_1')}
+                            <Link target="_blank" rel="nofollow noopener noreferrer" href="https://aws.amazon.com/codebuild/">AWS CodeBuild</Link>
+                            {t('index.experience.aws_codebuild_2')}
+                            <br />
+                            {t('index.experience.aws_mde')}
                         </ListItem>
                         <br />
                         <ListItem>
