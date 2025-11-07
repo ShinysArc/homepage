@@ -20,11 +20,10 @@ const NotFound = () => {
     )
 }
 
-export async function getServerSideProps({ locale, req }) {
+export async function getStaticProps({ locale }) {
   return {
     props: {
       ...(await serverSideTranslations(locale, ['common'])),
-      cookies: req.headers.cookie ?? '',
     },
   };
 }
