@@ -12,7 +12,13 @@ const Layout = ({ children, title }) => {
     const t = `${title} - Stephane Gelibert`
     return (
         <motion.article
-            initial="hidden" animate="enter" exit="exit" variants={variants} transition={{ duration: 0.4, type: 'easeInOut' }} style={{ position: 'relative' }}>
+            initial="hidden"
+            animate="enter"
+            exit="exit"
+            variants={variants}
+            transition={{ duration: 0.4, type: 'easeInOut' }}
+            style={{ position: 'relative' }}
+        >
             <>
                 {title &&(
                 <Head>
@@ -22,6 +28,7 @@ const Layout = ({ children, title }) => {
                 </Head>
                 )}
                 {children}
+
                 <GridItemStyle />
             </>
         </motion.article>
