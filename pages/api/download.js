@@ -44,7 +44,7 @@ const download = async (req, res) => {
   })
 
   const page = await browser.newPage()
-  await page.goto(`http://localhost:3000/resume`, { waitUntil: 'networkidle2' })
+  await page.goto(`http://localhost:3002/resume`, { waitUntil: 'networkidle2' })
   const { theme } = req.query;
   await page.emulateMediaFeatures([{
     name: 'prefers-color-scheme', value: theme
@@ -70,8 +70,6 @@ const download = async (req, res) => {
       }
     }
   });
-
-  await page.screenshot({path: `oe-${theme}.png`, fullPage: true});
 
   const pdf = await page.pdf({
     format: 'A4',
