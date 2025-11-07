@@ -81,14 +81,13 @@ const Projects = () => {
     )
 }
 
-export async function getStaticProps({ locale }) {
-    return {
-        props: {
-        ...(await serverSideTranslations(locale, [
-            'common'
-        ])),
-        },
-    }
+export async function getServerSideProps({ locale, req }) {
+  return {
+    props: {
+      ...(await serverSideTranslations(locale, ['common'])),
+      cookies: req.headers.cookie ?? '',
+    },
+  };
 }
 
 export default Projects

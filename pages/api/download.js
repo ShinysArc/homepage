@@ -49,6 +49,7 @@ const download = async (req, res) => {
   await page.emulateMediaFeatures([{
     name: 'prefers-color-scheme', value: theme
   }]);
+
   await page.evaluate(() => {
     const navElement = document.querySelector('nav');
     if (navElement) {
@@ -69,6 +70,8 @@ const download = async (req, res) => {
       }
     }
   });
+
+  await page.screenshot({path: `oe-${theme}.png`, fullPage: true});
 
   const pdf = await page.pdf({
     format: 'A4',

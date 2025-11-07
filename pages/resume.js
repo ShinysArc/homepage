@@ -17,19 +17,23 @@ export const ResumeContent = () => (
 
             <div className={styles["contact"]}>
                 <Link className={styles["contact-item"]} target="_blank" href="https://www.google.com/maps/place/Berlin">
-                    <IoLocationOutline className={styles["icon-font"]} /> Berlin, Germany
+                    <IoLocationOutline className={styles["icon-font"]} />
+                    Berlin, Germany
                 </Link>
 
                 <Link className={styles["contact-item"]} target="_blank" href="/">
-                    <IoGlobeOutline className={styles["icon-font"]} /> stephanegelibert.com
+                    <IoGlobeOutline className={styles["icon-font"]} />
+                    stephanegelibert.com
                 </Link>
 
                 <Link className={styles["contact-item"]} target="_blank" href="mailto:contact@stephanegelibert.com">
-                    <IoMailOutline className={styles["icon-font"]} /> contact@stephanegelibert.com
+                    <IoMailOutline className={styles["icon-font"]} />
+                    contact@stephanegelibert.com
                 </Link>
 
                 <Link className={styles["contact-item"]} target="_blank" href="https://www.linkedin.com/in/stephane-gelibert/">
-                    <IoLogoLinkedin className={styles["icon-font"]} /> stephane-gelibert
+                    <IoLogoLinkedin className={styles["icon-font"]} />
+                    stephane-gelibert
                 </Link>
             </div>
 
@@ -317,14 +321,13 @@ const Resume = () => (
     </Layout>
 )
 
-export async function getStaticProps({ locale }) {
-    return {
-        props: {
-        ...(await serverSideTranslations(locale, [
-            'common'
-        ])),
-        },
-    }
+export async function getServerSideProps({ locale, req }) {
+  return {
+    props: {
+      ...(await serverSideTranslations(locale, ['common'])),
+      cookies: req.headers.cookie ?? '',
+    },
+  };
 }
 
 export default Resume
